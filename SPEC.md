@@ -58,8 +58,12 @@ fits the page width:
 TSBv1~<segmentIndex>~<segmentCount>~<chunk>
 ```
 
-Reassemble by collecting every `TSBv1~i~n~chunk` match, sorting on `i`, and
-concatenating the chunks (tolerant of reordered/interleaved extractor output).
+Reassemble **per page**, not across the whole document: collect every
+`TSBv1~i~n~chunk` match on a page, sort on `i`, and concatenate the chunks
+(tolerant of reordered/interleaved extractor output within the page). Segments
+carry no payload id, so if a TO merges several team sheets into one PDF,
+document-wide collection would interleave chunks from different teams. Ignore
+a duplicated segment index (same `i` twice on a page) — keep the first.
 The reassembled payload is:
 
 ```
@@ -75,6 +79,10 @@ statAlignmentId, hp, atk, def, spa, spd, spe
 
 - The id fields are internal **slug ids** (`incineroar`, `fake-out`,
   `safety-goggles`, `Jolly`, …). Expand them to names via the data files in §4.
+  Note the casing: stat-alignment ids are **capitalized** (`Jolly`, `Adamant`)
+  in the builder's data — that is the real wire format, not a typo. All other
+  categories use lowercase-kebab slugs. Lookups are exact-match; don't
+  lowercase the ids.
 - The six stats are the **final displayed stat values** as strings.
 - An empty Pokémon slot is all-empty fields (skip it).
 
@@ -116,7 +124,8 @@ Decode by porting `../teamsheetbuilder/src/domain/teamShare.ts`:
 1. base64url-decode the payload (`-_` → `+/`, re-pad `=` to a multiple of 4).
 2. Inflate with `DecompressionStream("deflate-raw")` (raw DEFLATE, no zlib header)
    — browser-native, no library.
-3. `JSON.parse` → `{ v, team, player? }`.
+3. `JSON.parse` → `{ v, team, player? }`. Accept `v: 1`; on an unknown `v`,
+   warn and attempt a best-effort decode rather than rejecting the link.
 4. `team` is the **same `<mon>|<mon>|…` slug payload as §2.1** (produced by
    `encodeTeamDataPayload`): split on `|`, split each on `,` into the 15 fields,
    expand ids via §4. There is **no `TSBv1~i~n~` wrapper** here.
@@ -241,6 +250,16 @@ upload endpoint.
 
 - **No `TSBv1`/`TSBI1` payload found** — the PDF isn't a Team Sheet Builder staff
   sheet (or is an Open sheet). Report it as skipped, don't crash the batch.
+- **Encrypted / password-protected PDF** — PDF.js throws a distinct error when
+  opening one. Report the file as skipped; don't crash the batch.
+- **Multiple staff pages in one PDF** — a TO may merge several team sheets into
+  one file. Handle it by reassembling `TSBv1` payloads per page (§2.1); each
+  page with a payload yields its own team.
+- **Duplicate teams** — the same team may arrive twice (e.g. a player both
+  emails a link and hands in a PDF, or a link is pasted twice). An **identical
+  decoded team payload** is sufficient to call two entries duplicates:
+  auto-dedupe on it so usage stats aren't skewed, but surface what was dropped.
+  The TO can also manually delete teams they judge to be duplicates.
 - **Malformed team-share link** — bad base64url, inflate failure, or non-JSON.
   Skip that link and report it; don't crash the batch. (The builder's decoder
   returns `null` on any of these — mirror that.)
