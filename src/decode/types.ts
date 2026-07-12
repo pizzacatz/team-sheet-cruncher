@@ -20,10 +20,35 @@ export interface DecodedMon {
   }
 }
 
-/** One decoded team (one staff sheet). Empty slots are omitted. */
+/**
+ * Player info carried by a `#t=` team-share link (SPEC §2.3). PII by design —
+ * on-device only, never uploaded. All fields are optional free text.
+ */
+export interface PlayerInfo {
+  name?: string
+  playerId?: string
+  division?: string
+  teamName?: string
+  trainerName?: string
+  switchProfileName?: string
+  supportId?: string
+  dateOfBirth?: string
+  eventName?: string
+  date?: string
+}
+
+/** One decoded team (one staff sheet or one `#t=` link). Empty slots are omitted. */
 export interface DecodedTeam {
+  /** Origin label: PDF file name (`file.pdf` / `file.pdf#p2`) or a link label. */
   sourceFile: string
   mons: DecodedMon[]
+  /**
+   * The original `<mon>|<mon>|…` slug payload this team was decoded from —
+   * the dedup key (SPEC §7/§9.2): identical payload = identical team.
+   */
+  payload: string
+  /** Present only on `#t=` link-sourced teams (never on PDFs). */
+  player?: PlayerInfo
   /** Non-fatal oddities found while decoding (unexpected slot/field counts…). */
   warnings: string[]
 }

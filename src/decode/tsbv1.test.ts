@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { decodePayload, decodeText, findSegments, reassemble } from './tsbv1'
+import { decodePayload, decodePdfPages, decodeText, findSegments, reassemble } from './tsbv1'
 
 const MON =
   'incineroar,,intimidate,safety-goggles,fake-out,knock-off,flare-blitz,parting-shot,Jolly,177,135,110,63,110,92'
@@ -76,6 +76,26 @@ describe('decodePayload', () => {
     const team = decodePayload(payloadOf(MON, MON), 'a.pdf')
     expect(team.mons).toHaveLength(2)
     expect(team.warnings.some((w) => w.includes('team slots'))).toBe(true)
+  })
+})
+
+describe('decodePdfPages', () => {
+  const pageWith = (payload: string) => `header\nTSBv1~0~1~${payload}\nfooter`
+  const teamA = payloadOf(MON, EMPTY_SLOT, EMPTY_SLOT, EMPTY_SLOT, EMPTY_SLOT, EMPTY_SLOT)
+  const teamB = payloadOf(EMPTY_SLOT, MON, EMPTY_SLOT, EMPTY_SLOT, EMPTY_SLOT, EMPTY_SLOT)
+
+  it('keeps the plain file name when only one page has a payload', () => {
+    const teams = decodePdfPages(['Open page, no payload', pageWith(teamA)], 'a.pdf')
+    expect(teams).toHaveLength(1)
+    expect(teams[0].sourceFile).toBe('a.pdf')
+  })
+
+  it('yields one team per staff page in a merged PDF, labelled by page', () => {
+    const teams = decodePdfPages([pageWith(teamA), 'no payload', pageWith(teamB)], 'merged.pdf')
+    expect(teams).toHaveLength(2)
+    expect(teams.map((t) => t.sourceFile)).toEqual(['merged.pdf#p1', 'merged.pdf#p3'])
+    expect(teams[0].payload).toBe(teamA)
+    expect(teams[1].payload).toBe(teamB)
   })
 })
 

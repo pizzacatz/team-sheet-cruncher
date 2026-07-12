@@ -106,7 +106,7 @@ export function decodePayload(payload: string, sourceFile: string, priorWarnings
     const mon = parseMon(raw, i + 1, warnings)
     if (mon) mons.push(mon)
   })
-  return { sourceFile, mons, warnings }
+  return { sourceFile, mons, payload, warnings }
 }
 
 /**
@@ -118,4 +118,21 @@ export function decodeText(text: string, sourceFile: string): DecodedTeam | null
   if (segments.length === 0) return null
   const { payload, warnings } = reassemble(segments)
   return decodePayload(payload, sourceFile, warnings)
+}
+
+/**
+ * Decode every page of a PDF independently — a TO may merge several team
+ * sheets into one file, and each staff page yields its own team (SPEC §2.1/§7).
+ * When more than one page carries a payload, sources are labelled `file#pN`.
+ */
+export function decodePdfPages(pages: string[], fileName: string): DecodedTeam[] {
+  const found: { team: DecodedTeam; page: number }[] = []
+  pages.forEach((text, i) => {
+    const team = decodeText(text, fileName)
+    if (team) found.push({ team, page: i + 1 })
+  })
+  if (found.length > 1) {
+    for (const f of found) f.team.sourceFile = `${fileName}#p${f.page}`
+  }
+  return found.map((f) => f.team)
 }

@@ -1,1 +1,333 @@
-[]
+[
+  {
+    "id": "Adamant",
+    "displayName": "Adamant",
+    "aliases": [
+      "Adamant",
+      "adamant"
+    ],
+    "showdownNatureAliases": [
+      "Adamant",
+      "Adamant Nature"
+    ],
+    "raises": "atk",
+    "lowers": "spa",
+    "isNeutral": false
+  },
+  {
+    "id": "Bold",
+    "displayName": "Bold",
+    "aliases": [
+      "Bold",
+      "bold"
+    ],
+    "showdownNatureAliases": [
+      "Bold",
+      "Bold Nature"
+    ],
+    "raises": "def",
+    "lowers": "atk",
+    "isNeutral": false
+  },
+  {
+    "id": "Brave",
+    "displayName": "Brave",
+    "aliases": [
+      "Brave",
+      "brave"
+    ],
+    "showdownNatureAliases": [
+      "Brave",
+      "Brave Nature"
+    ],
+    "raises": "atk",
+    "lowers": "spe",
+    "isNeutral": false
+  },
+  {
+    "id": "Calm",
+    "displayName": "Calm",
+    "aliases": [
+      "Calm",
+      "calm"
+    ],
+    "showdownNatureAliases": [
+      "Calm",
+      "Calm Nature"
+    ],
+    "raises": "spd",
+    "lowers": "atk",
+    "isNeutral": false
+  },
+  {
+    "id": "Careful",
+    "displayName": "Careful",
+    "aliases": [
+      "Careful",
+      "careful"
+    ],
+    "showdownNatureAliases": [
+      "Careful",
+      "Careful Nature"
+    ],
+    "raises": "spd",
+    "lowers": "spa",
+    "isNeutral": false
+  },
+  {
+    "id": "Gentle",
+    "displayName": "Gentle",
+    "aliases": [
+      "Gentle",
+      "gentle"
+    ],
+    "showdownNatureAliases": [
+      "Gentle",
+      "Gentle Nature"
+    ],
+    "raises": "spd",
+    "lowers": "def",
+    "isNeutral": false
+  },
+  {
+    "id": "Hasty",
+    "displayName": "Hasty",
+    "aliases": [
+      "Hasty",
+      "hasty"
+    ],
+    "showdownNatureAliases": [
+      "Hasty",
+      "Hasty Nature"
+    ],
+    "raises": "spe",
+    "lowers": "def",
+    "isNeutral": false
+  },
+  {
+    "id": "Impish",
+    "displayName": "Impish",
+    "aliases": [
+      "Impish",
+      "impish"
+    ],
+    "showdownNatureAliases": [
+      "Impish",
+      "Impish Nature"
+    ],
+    "raises": "def",
+    "lowers": "spa",
+    "isNeutral": false
+  },
+  {
+    "id": "Jolly",
+    "displayName": "Jolly",
+    "aliases": [
+      "Jolly",
+      "jolly"
+    ],
+    "showdownNatureAliases": [
+      "Jolly",
+      "Jolly Nature"
+    ],
+    "raises": "spe",
+    "lowers": "spa",
+    "isNeutral": false
+  },
+  {
+    "id": "Lax",
+    "displayName": "Lax",
+    "aliases": [
+      "Lax",
+      "lax"
+    ],
+    "showdownNatureAliases": [
+      "Lax",
+      "Lax Nature"
+    ],
+    "raises": "def",
+    "lowers": "spd",
+    "isNeutral": false
+  },
+  {
+    "id": "Lonely",
+    "displayName": "Lonely",
+    "aliases": [
+      "Lonely",
+      "lonely"
+    ],
+    "showdownNatureAliases": [
+      "Lonely",
+      "Lonely Nature"
+    ],
+    "raises": "atk",
+    "lowers": "def",
+    "isNeutral": false
+  },
+  {
+    "id": "Mild",
+    "displayName": "Mild",
+    "aliases": [
+      "Mild",
+      "mild"
+    ],
+    "showdownNatureAliases": [
+      "Mild",
+      "Mild Nature"
+    ],
+    "raises": "spa",
+    "lowers": "def",
+    "isNeutral": false
+  },
+  {
+    "id": "Modest",
+    "displayName": "Modest",
+    "aliases": [
+      "Modest",
+      "modest"
+    ],
+    "showdownNatureAliases": [
+      "Modest",
+      "Modest Nature"
+    ],
+    "raises": "spa",
+    "lowers": "atk",
+    "isNeutral": false
+  },
+  {
+    "id": "Naive",
+    "displayName": "Naive",
+    "aliases": [
+      "Naive",
+      "naive"
+    ],
+    "showdownNatureAliases": [
+      "Naive",
+      "Naive Nature"
+    ],
+    "raises": "spe",
+    "lowers": "spd",
+    "isNeutral": false
+  },
+  {
+    "id": "Naughty",
+    "displayName": "Naughty",
+    "aliases": [
+      "Naughty",
+      "naughty"
+    ],
+    "showdownNatureAliases": [
+      "Naughty",
+      "Naughty Nature"
+    ],
+    "raises": "atk",
+    "lowers": "spd",
+    "isNeutral": false
+  },
+  {
+    "id": "Quiet",
+    "displayName": "Quiet",
+    "aliases": [
+      "Quiet",
+      "quiet"
+    ],
+    "showdownNatureAliases": [
+      "Quiet",
+      "Quiet Nature"
+    ],
+    "raises": "spa",
+    "lowers": "spe",
+    "isNeutral": false
+  },
+  {
+    "id": "Rash",
+    "displayName": "Rash",
+    "aliases": [
+      "Rash",
+      "rash"
+    ],
+    "showdownNatureAliases": [
+      "Rash",
+      "Rash Nature"
+    ],
+    "raises": "spa",
+    "lowers": "spd",
+    "isNeutral": false
+  },
+  {
+    "id": "Relaxed",
+    "displayName": "Relaxed",
+    "aliases": [
+      "Relaxed",
+      "relaxed"
+    ],
+    "showdownNatureAliases": [
+      "Relaxed",
+      "Relaxed Nature"
+    ],
+    "raises": "def",
+    "lowers": "spe",
+    "isNeutral": false
+  },
+  {
+    "id": "Sassy",
+    "displayName": "Sassy",
+    "aliases": [
+      "Sassy",
+      "sassy"
+    ],
+    "showdownNatureAliases": [
+      "Sassy",
+      "Sassy Nature"
+    ],
+    "raises": "spd",
+    "lowers": "spe",
+    "isNeutral": false
+  },
+  {
+    "id": "Serious",
+    "displayName": "Serious",
+    "aliases": [
+      "Bashful",
+      "Bashful Nature",
+      "Docile",
+      "Docile Nature",
+      "Hardy",
+      "Hardy Nature",
+      "Quirky",
+      "Quirky Nature",
+      "Serious",
+      "serious"
+    ],
+    "showdownNatureAliases": [
+      "Bashful",
+      "Bashful Nature",
+      "Docile",
+      "Docile Nature",
+      "Hardy",
+      "Hardy Nature",
+      "Quirky",
+      "Quirky Nature",
+      "Serious",
+      "Serious Nature"
+    ],
+    "raises": null,
+    "lowers": null,
+    "isNeutral": true
+  },
+  {
+    "id": "Timid",
+    "displayName": "Timid",
+    "aliases": [
+      "Timid",
+      "timid"
+    ],
+    "showdownNatureAliases": [
+      "Timid",
+      "Timid Nature"
+    ],
+    "raises": "spe",
+    "lowers": "atk",
+    "isNeutral": false
+  }
+]

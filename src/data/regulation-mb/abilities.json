@@ -1,1 +1,3126 @@
-[]
+[
+  {
+    "id": "adaptability",
+    "displayName": "Adaptability",
+    "aliases": [
+      "Adaptability",
+      "adaptability"
+    ],
+    "showdownAliases": [
+      "adaptability",
+      "Adaptability"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "aerilate",
+    "displayName": "Aerilate",
+    "aliases": [
+      "Aerilate",
+      "aerilate"
+    ],
+    "showdownAliases": [
+      "aerilate",
+      "Aerilate"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "aftermath",
+    "displayName": "Aftermath",
+    "aliases": [
+      "Aftermath",
+      "aftermath"
+    ],
+    "showdownAliases": [
+      "aftermath",
+      "Aftermath"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "analytic",
+    "displayName": "Analytic",
+    "aliases": [
+      "Analytic",
+      "analytic"
+    ],
+    "showdownAliases": [
+      "analytic",
+      "Analytic"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "anger-point",
+    "displayName": "Anger Point",
+    "aliases": [
+      "Anger Point",
+      "anger-point",
+      "angerpoint"
+    ],
+    "showdownAliases": [
+      "anger-point",
+      "Anger Point"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "anticipation",
+    "displayName": "Anticipation",
+    "aliases": [
+      "Anticipation",
+      "anticipation"
+    ],
+    "showdownAliases": [
+      "anticipation",
+      "Anticipation"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "armor-tail",
+    "displayName": "Armor Tail",
+    "aliases": [
+      "Armor Tail",
+      "armor-tail",
+      "armortail"
+    ],
+    "showdownAliases": [
+      "armor-tail",
+      "Armor Tail"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "aroma-veil",
+    "displayName": "Aroma Veil",
+    "aliases": [
+      "Aroma Veil",
+      "aroma-veil",
+      "aromaveil"
+    ],
+    "showdownAliases": [
+      "aroma-veil",
+      "Aroma Veil"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "battle-armor",
+    "displayName": "Battle Armor",
+    "aliases": [
+      "Battle Armor",
+      "battle-armor",
+      "battlearmor"
+    ],
+    "showdownAliases": [
+      "battle-armor",
+      "Battle Armor"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "berserk",
+    "displayName": "Berserk",
+    "aliases": [
+      "Berserk",
+      "berserk"
+    ],
+    "showdownAliases": [
+      "berserk",
+      "Berserk"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "big-pecks",
+    "displayName": "Big Pecks",
+    "aliases": [
+      "Big Pecks",
+      "big-pecks",
+      "bigpecks"
+    ],
+    "showdownAliases": [
+      "big-pecks",
+      "Big Pecks"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "blaze",
+    "displayName": "Blaze",
+    "aliases": [
+      "Blaze",
+      "blaze"
+    ],
+    "showdownAliases": [
+      "blaze",
+      "Blaze"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "bulletproof",
+    "displayName": "Bulletproof",
+    "aliases": [
+      "Bulletproof",
+      "bulletproof"
+    ],
+    "showdownAliases": [
+      "bulletproof",
+      "Bulletproof"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "cheek-pouch",
+    "displayName": "Cheek Pouch",
+    "aliases": [
+      "Cheek Pouch",
+      "cheek-pouch",
+      "cheekpouch"
+    ],
+    "showdownAliases": [
+      "cheek-pouch",
+      "Cheek Pouch"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "chlorophyll",
+    "displayName": "Chlorophyll",
+    "aliases": [
+      "Chlorophyll",
+      "chlorophyll"
+    ],
+    "showdownAliases": [
+      "chlorophyll",
+      "Chlorophyll"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "clear-body",
+    "displayName": "Clear Body",
+    "aliases": [
+      "Clear Body",
+      "clear-body",
+      "clearbody"
+    ],
+    "showdownAliases": [
+      "clear-body",
+      "Clear Body"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "cloud-nine",
+    "displayName": "Cloud Nine",
+    "aliases": [
+      "Cloud Nine",
+      "cloud-nine",
+      "cloudnine"
+    ],
+    "showdownAliases": [
+      "cloud-nine",
+      "Cloud Nine"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "competitive",
+    "displayName": "Competitive",
+    "aliases": [
+      "Competitive",
+      "competitive"
+    ],
+    "showdownAliases": [
+      "competitive",
+      "Competitive"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "compound-eyes",
+    "displayName": "Compound Eyes",
+    "aliases": [
+      "Compound Eyes",
+      "compound-eyes",
+      "compoundeyes"
+    ],
+    "showdownAliases": [
+      "compound-eyes",
+      "Compound Eyes"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "contrary",
+    "displayName": "Contrary",
+    "aliases": [
+      "Contrary",
+      "contrary"
+    ],
+    "showdownAliases": [
+      "contrary",
+      "Contrary"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "corrosion",
+    "displayName": "Corrosion",
+    "aliases": [
+      "Corrosion",
+      "corrosion"
+    ],
+    "showdownAliases": [
+      "corrosion",
+      "Corrosion"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "cud-chew",
+    "displayName": "Cud Chew",
+    "aliases": [
+      "Cud Chew",
+      "cud-chew",
+      "cudchew"
+    ],
+    "showdownAliases": [
+      "cud-chew",
+      "Cud Chew"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "curious-medicine",
+    "displayName": "Curious Medicine",
+    "aliases": [
+      "Curious Medicine",
+      "curious-medicine",
+      "curiousmedicine"
+    ],
+    "showdownAliases": [
+      "curious-medicine",
+      "Curious Medicine"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "cursed-body",
+    "displayName": "Cursed Body",
+    "aliases": [
+      "Cursed Body",
+      "cursed-body",
+      "cursedbody"
+    ],
+    "showdownAliases": [
+      "cursed-body",
+      "Cursed Body"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "cute-charm",
+    "displayName": "Cute Charm",
+    "aliases": [
+      "Cute Charm",
+      "cute-charm",
+      "cutecharm"
+    ],
+    "showdownAliases": [
+      "cute-charm",
+      "Cute Charm"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "damp",
+    "displayName": "Damp",
+    "aliases": [
+      "Damp",
+      "damp"
+    ],
+    "showdownAliases": [
+      "damp",
+      "Damp"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "defiant",
+    "displayName": "Defiant",
+    "aliases": [
+      "Defiant",
+      "defiant"
+    ],
+    "showdownAliases": [
+      "defiant",
+      "Defiant"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "disguise",
+    "displayName": "Disguise",
+    "aliases": [
+      "Disguise",
+      "disguise"
+    ],
+    "showdownAliases": [
+      "disguise",
+      "Disguise"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "dragonize",
+    "displayName": "Dragonize",
+    "aliases": [
+      "Dragonize",
+      "dragonize"
+    ],
+    "showdownAliases": [
+      "dragonize",
+      "Dragonize"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "drizzle",
+    "displayName": "Drizzle",
+    "aliases": [
+      "Drizzle",
+      "drizzle"
+    ],
+    "showdownAliases": [
+      "drizzle",
+      "Drizzle"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "drought",
+    "displayName": "Drought",
+    "aliases": [
+      "Drought",
+      "drought"
+    ],
+    "showdownAliases": [
+      "drought",
+      "Drought"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "dry-skin",
+    "displayName": "Dry Skin",
+    "aliases": [
+      "Dry Skin",
+      "dry-skin",
+      "dryskin"
+    ],
+    "showdownAliases": [
+      "dry-skin",
+      "Dry Skin"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "early-bird",
+    "displayName": "Early Bird",
+    "aliases": [
+      "Early Bird",
+      "early-bird",
+      "earlybird"
+    ],
+    "showdownAliases": [
+      "early-bird",
+      "Early Bird"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "earth-eater",
+    "displayName": "Earth Eater",
+    "aliases": [
+      "Earth Eater",
+      "earth-eater",
+      "eartheater"
+    ],
+    "showdownAliases": [
+      "earth-eater",
+      "Earth Eater"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "eelevate",
+    "displayName": "Eelevate",
+    "aliases": [
+      "Eelevate",
+      "eelevate"
+    ],
+    "showdownAliases": [
+      "eelevate",
+      "Eelevate"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "effect-spore",
+    "displayName": "Effect Spore",
+    "aliases": [
+      "Effect Spore",
+      "effect-spore",
+      "effectspore"
+    ],
+    "showdownAliases": [
+      "effect-spore",
+      "Effect Spore"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "electric-surge",
+    "displayName": "Electric Surge",
+    "aliases": [
+      "Electric Surge",
+      "electric-surge",
+      "electricsurge"
+    ],
+    "showdownAliases": [
+      "electric-surge",
+      "Electric Surge"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "electromorphosis",
+    "displayName": "Electromorphosis",
+    "aliases": [
+      "Electromorphosis",
+      "electromorphosis"
+    ],
+    "showdownAliases": [
+      "electromorphosis",
+      "Electromorphosis"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "fairy-aura",
+    "displayName": "Fairy Aura",
+    "aliases": [
+      "Fairy Aura",
+      "fairy-aura",
+      "fairyaura"
+    ],
+    "showdownAliases": [
+      "fairy-aura",
+      "Fairy Aura"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "filter",
+    "displayName": "Filter",
+    "aliases": [
+      "Filter",
+      "filter"
+    ],
+    "showdownAliases": [
+      "filter",
+      "Filter"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "fire-mane",
+    "displayName": "Fire Mane",
+    "aliases": [
+      "Fire Mane",
+      "fire-mane",
+      "firemane"
+    ],
+    "showdownAliases": [
+      "fire-mane",
+      "Fire Mane"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "flame-body",
+    "displayName": "Flame Body",
+    "aliases": [
+      "Flame Body",
+      "flame-body",
+      "flamebody"
+    ],
+    "showdownAliases": [
+      "flame-body",
+      "Flame Body"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "flash-fire",
+    "displayName": "Flash Fire",
+    "aliases": [
+      "Flash Fire",
+      "flash-fire",
+      "flashfire"
+    ],
+    "showdownAliases": [
+      "flash-fire",
+      "Flash Fire"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "flower-veil",
+    "displayName": "Flower Veil",
+    "aliases": [
+      "Flower Veil",
+      "flower-veil",
+      "flowerveil"
+    ],
+    "showdownAliases": [
+      "flower-veil",
+      "Flower Veil"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "fluffy",
+    "displayName": "Fluffy",
+    "aliases": [
+      "Fluffy",
+      "fluffy"
+    ],
+    "showdownAliases": [
+      "fluffy",
+      "Fluffy"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "forecast",
+    "displayName": "Forecast",
+    "aliases": [
+      "Forecast",
+      "forecast"
+    ],
+    "showdownAliases": [
+      "forecast",
+      "Forecast"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "forewarn",
+    "displayName": "Forewarn",
+    "aliases": [
+      "Forewarn",
+      "forewarn"
+    ],
+    "showdownAliases": [
+      "forewarn",
+      "Forewarn"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "friend-guard",
+    "displayName": "Friend Guard",
+    "aliases": [
+      "Friend Guard",
+      "friend-guard",
+      "friendguard"
+    ],
+    "showdownAliases": [
+      "friend-guard",
+      "Friend Guard"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "frisk",
+    "displayName": "Frisk",
+    "aliases": [
+      "Frisk",
+      "frisk"
+    ],
+    "showdownAliases": [
+      "frisk",
+      "Frisk"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "fur-coat",
+    "displayName": "Fur Coat",
+    "aliases": [
+      "Fur Coat",
+      "fur-coat",
+      "furcoat"
+    ],
+    "showdownAliases": [
+      "fur-coat",
+      "Fur Coat"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "gale-wings",
+    "displayName": "Gale Wings",
+    "aliases": [
+      "Gale Wings",
+      "gale-wings",
+      "galewings"
+    ],
+    "showdownAliases": [
+      "gale-wings",
+      "Gale Wings"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "gluttony",
+    "displayName": "Gluttony",
+    "aliases": [
+      "Gluttony",
+      "gluttony"
+    ],
+    "showdownAliases": [
+      "gluttony",
+      "Gluttony"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "good-as-gold",
+    "displayName": "Good as Gold",
+    "aliases": [
+      "Good as Gold",
+      "good-as-gold",
+      "goodasgold"
+    ],
+    "showdownAliases": [
+      "good-as-gold",
+      "Good as Gold"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "gooey",
+    "displayName": "Gooey",
+    "aliases": [
+      "Gooey",
+      "gooey"
+    ],
+    "showdownAliases": [
+      "gooey",
+      "Gooey"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "guts",
+    "displayName": "Guts",
+    "aliases": [
+      "Guts",
+      "guts"
+    ],
+    "showdownAliases": [
+      "guts",
+      "Guts"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "harvest",
+    "displayName": "Harvest",
+    "aliases": [
+      "Harvest",
+      "harvest"
+    ],
+    "showdownAliases": [
+      "harvest",
+      "Harvest"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "healer",
+    "displayName": "Healer",
+    "aliases": [
+      "Healer",
+      "healer"
+    ],
+    "showdownAliases": [
+      "healer",
+      "Healer"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "heatproof",
+    "displayName": "Heatproof",
+    "aliases": [
+      "Heatproof",
+      "heatproof"
+    ],
+    "showdownAliases": [
+      "heatproof",
+      "Heatproof"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "heavy-metal",
+    "displayName": "Heavy Metal",
+    "aliases": [
+      "Heavy Metal",
+      "heavy-metal",
+      "heavymetal"
+    ],
+    "showdownAliases": [
+      "heavy-metal",
+      "Heavy Metal"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "hospitality",
+    "displayName": "Hospitality",
+    "aliases": [
+      "Hospitality",
+      "hospitality"
+    ],
+    "showdownAliases": [
+      "hospitality",
+      "Hospitality"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "huge-power",
+    "displayName": "Huge Power",
+    "aliases": [
+      "Huge Power",
+      "huge-power",
+      "hugepower"
+    ],
+    "showdownAliases": [
+      "huge-power",
+      "Huge Power"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "hunger-switch",
+    "displayName": "Hunger Switch",
+    "aliases": [
+      "Hunger Switch",
+      "hunger-switch",
+      "hungerswitch"
+    ],
+    "showdownAliases": [
+      "hunger-switch",
+      "Hunger Switch"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "hustle",
+    "displayName": "Hustle",
+    "aliases": [
+      "Hustle",
+      "hustle"
+    ],
+    "showdownAliases": [
+      "hustle",
+      "Hustle"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "hydration",
+    "displayName": "Hydration",
+    "aliases": [
+      "Hydration",
+      "hydration"
+    ],
+    "showdownAliases": [
+      "hydration",
+      "Hydration"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "hyper-cutter",
+    "displayName": "Hyper Cutter",
+    "aliases": [
+      "Hyper Cutter",
+      "hyper-cutter",
+      "hypercutter"
+    ],
+    "showdownAliases": [
+      "hyper-cutter",
+      "Hyper Cutter"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "ice-body",
+    "displayName": "Ice Body",
+    "aliases": [
+      "Ice Body",
+      "ice-body",
+      "icebody"
+    ],
+    "showdownAliases": [
+      "ice-body",
+      "Ice Body"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "illuminate",
+    "displayName": "Illuminate",
+    "aliases": [
+      "Illuminate",
+      "illuminate"
+    ],
+    "showdownAliases": [
+      "illuminate",
+      "Illuminate"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "illusion",
+    "displayName": "Illusion",
+    "aliases": [
+      "Illusion",
+      "illusion"
+    ],
+    "showdownAliases": [
+      "illusion",
+      "Illusion"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "immunity",
+    "displayName": "Immunity",
+    "aliases": [
+      "Immunity",
+      "immunity"
+    ],
+    "showdownAliases": [
+      "immunity",
+      "Immunity"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "imposter",
+    "displayName": "Imposter",
+    "aliases": [
+      "Imposter",
+      "imposter"
+    ],
+    "showdownAliases": [
+      "imposter",
+      "Imposter"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "infiltrator",
+    "displayName": "Infiltrator",
+    "aliases": [
+      "Infiltrator",
+      "infiltrator"
+    ],
+    "showdownAliases": [
+      "infiltrator",
+      "Infiltrator"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "innards-out",
+    "displayName": "Innards Out",
+    "aliases": [
+      "Innards Out",
+      "innards-out",
+      "innardsout"
+    ],
+    "showdownAliases": [
+      "innards-out",
+      "Innards Out"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "inner-focus",
+    "displayName": "Inner Focus",
+    "aliases": [
+      "Inner Focus",
+      "inner-focus",
+      "innerfocus"
+    ],
+    "showdownAliases": [
+      "inner-focus",
+      "Inner Focus"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "insomnia",
+    "displayName": "Insomnia",
+    "aliases": [
+      "Insomnia",
+      "insomnia"
+    ],
+    "showdownAliases": [
+      "insomnia",
+      "Insomnia"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "intimidate",
+    "displayName": "Intimidate",
+    "aliases": [
+      "Intimidate",
+      "intimidate"
+    ],
+    "showdownAliases": [
+      "intimidate",
+      "Intimidate"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "iron-fist",
+    "displayName": "Iron Fist",
+    "aliases": [
+      "Iron Fist",
+      "iron-fist",
+      "ironfist"
+    ],
+    "showdownAliases": [
+      "iron-fist",
+      "Iron Fist"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "justified",
+    "displayName": "Justified",
+    "aliases": [
+      "Justified",
+      "justified"
+    ],
+    "showdownAliases": [
+      "justified",
+      "Justified"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "keen-eye",
+    "displayName": "Keen Eye",
+    "aliases": [
+      "Keen Eye",
+      "keen-eye",
+      "keeneye"
+    ],
+    "showdownAliases": [
+      "keen-eye",
+      "Keen Eye"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "klutz",
+    "displayName": "Klutz",
+    "aliases": [
+      "Klutz",
+      "klutz"
+    ],
+    "showdownAliases": [
+      "klutz",
+      "Klutz"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "leaf-guard",
+    "displayName": "Leaf Guard",
+    "aliases": [
+      "Leaf Guard",
+      "leaf-guard",
+      "leafguard"
+    ],
+    "showdownAliases": [
+      "leaf-guard",
+      "Leaf Guard"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "levitate",
+    "displayName": "Levitate",
+    "aliases": [
+      "Levitate",
+      "levitate"
+    ],
+    "showdownAliases": [
+      "levitate",
+      "Levitate"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "light-metal",
+    "displayName": "Light Metal",
+    "aliases": [
+      "Light Metal",
+      "light-metal",
+      "lightmetal"
+    ],
+    "showdownAliases": [
+      "light-metal",
+      "Light Metal"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "lightning-rod",
+    "displayName": "Lightning Rod",
+    "aliases": [
+      "Lightning Rod",
+      "lightning-rod",
+      "lightningrod"
+    ],
+    "showdownAliases": [
+      "lightning-rod",
+      "Lightning Rod"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "limber",
+    "displayName": "Limber",
+    "aliases": [
+      "Limber",
+      "limber"
+    ],
+    "showdownAliases": [
+      "limber",
+      "Limber"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "liquid-voice",
+    "displayName": "Liquid Voice",
+    "aliases": [
+      "Liquid Voice",
+      "liquid-voice",
+      "liquidvoice"
+    ],
+    "showdownAliases": [
+      "liquid-voice",
+      "Liquid Voice"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "long-reach",
+    "displayName": "Long Reach",
+    "aliases": [
+      "Long Reach",
+      "long-reach",
+      "longreach"
+    ],
+    "showdownAliases": [
+      "long-reach",
+      "Long Reach"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "magic-bounce",
+    "displayName": "Magic Bounce",
+    "aliases": [
+      "Magic Bounce",
+      "magic-bounce",
+      "magicbounce"
+    ],
+    "showdownAliases": [
+      "magic-bounce",
+      "Magic Bounce"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "magic-guard",
+    "displayName": "Magic Guard",
+    "aliases": [
+      "Magic Guard",
+      "magic-guard",
+      "magicguard"
+    ],
+    "showdownAliases": [
+      "magic-guard",
+      "Magic Guard"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "magician",
+    "displayName": "Magician",
+    "aliases": [
+      "Magician",
+      "magician"
+    ],
+    "showdownAliases": [
+      "magician",
+      "Magician"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "magma-armor",
+    "displayName": "Magma Armor",
+    "aliases": [
+      "Magma Armor",
+      "magma-armor",
+      "magmaarmor"
+    ],
+    "showdownAliases": [
+      "magma-armor",
+      "Magma Armor"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "marvel-scale",
+    "displayName": "Marvel Scale",
+    "aliases": [
+      "Marvel Scale",
+      "marvel-scale",
+      "marvelscale"
+    ],
+    "showdownAliases": [
+      "marvel-scale",
+      "Marvel Scale"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "mega-launcher",
+    "displayName": "Mega Launcher",
+    "aliases": [
+      "Mega Launcher",
+      "mega-launcher",
+      "megalauncher"
+    ],
+    "showdownAliases": [
+      "mega-launcher",
+      "Mega Launcher"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "mega-sol",
+    "displayName": "Mega Sol",
+    "aliases": [
+      "Mega Sol",
+      "mega-sol",
+      "megasol"
+    ],
+    "showdownAliases": [
+      "mega-sol",
+      "Mega Sol"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "merciless",
+    "displayName": "Merciless",
+    "aliases": [
+      "Merciless",
+      "merciless"
+    ],
+    "showdownAliases": [
+      "merciless",
+      "Merciless"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "mimicry",
+    "displayName": "Mimicry",
+    "aliases": [
+      "Mimicry",
+      "mimicry"
+    ],
+    "showdownAliases": [
+      "mimicry",
+      "Mimicry"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "minus",
+    "displayName": "Minus",
+    "aliases": [
+      "Minus",
+      "minus"
+    ],
+    "showdownAliases": [
+      "minus",
+      "Minus"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "mirror-armor",
+    "displayName": "Mirror Armor",
+    "aliases": [
+      "Mirror Armor",
+      "mirror-armor",
+      "mirrorarmor"
+    ],
+    "showdownAliases": [
+      "mirror-armor",
+      "Mirror Armor"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "mold-breaker",
+    "displayName": "Mold Breaker",
+    "aliases": [
+      "Mold Breaker",
+      "mold-breaker",
+      "moldbreaker"
+    ],
+    "showdownAliases": [
+      "mold-breaker",
+      "Mold Breaker"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "moody",
+    "displayName": "Moody",
+    "aliases": [
+      "Moody",
+      "moody"
+    ],
+    "showdownAliases": [
+      "moody",
+      "Moody"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "motor-drive",
+    "displayName": "Motor Drive",
+    "aliases": [
+      "Motor Drive",
+      "motor-drive",
+      "motordrive"
+    ],
+    "showdownAliases": [
+      "motor-drive",
+      "Motor Drive"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "moxie",
+    "displayName": "Moxie",
+    "aliases": [
+      "Moxie",
+      "moxie"
+    ],
+    "showdownAliases": [
+      "moxie",
+      "Moxie"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "multiscale",
+    "displayName": "Multiscale",
+    "aliases": [
+      "Multiscale",
+      "multiscale"
+    ],
+    "showdownAliases": [
+      "multiscale",
+      "Multiscale"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "mummy",
+    "displayName": "Mummy",
+    "aliases": [
+      "Mummy",
+      "mummy"
+    ],
+    "showdownAliases": [
+      "mummy",
+      "Mummy"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "natural-cure",
+    "displayName": "Natural Cure",
+    "aliases": [
+      "Natural Cure",
+      "natural-cure",
+      "naturalcure"
+    ],
+    "showdownAliases": [
+      "natural-cure",
+      "Natural Cure"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "no-guard",
+    "displayName": "No Guard",
+    "aliases": [
+      "No Guard",
+      "no-guard",
+      "noguard"
+    ],
+    "showdownAliases": [
+      "no-guard",
+      "No Guard"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "oblivious",
+    "displayName": "Oblivious",
+    "aliases": [
+      "Oblivious",
+      "oblivious"
+    ],
+    "showdownAliases": [
+      "oblivious",
+      "Oblivious"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "opportunist",
+    "displayName": "Opportunist",
+    "aliases": [
+      "Opportunist",
+      "opportunist"
+    ],
+    "showdownAliases": [
+      "opportunist",
+      "Opportunist"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "overcoat",
+    "displayName": "Overcoat",
+    "aliases": [
+      "Overcoat",
+      "overcoat"
+    ],
+    "showdownAliases": [
+      "overcoat",
+      "Overcoat"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "overgrow",
+    "displayName": "Overgrow",
+    "aliases": [
+      "Overgrow",
+      "overgrow"
+    ],
+    "showdownAliases": [
+      "overgrow",
+      "Overgrow"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "own-tempo",
+    "displayName": "Own Tempo",
+    "aliases": [
+      "Own Tempo",
+      "own-tempo",
+      "owntempo"
+    ],
+    "showdownAliases": [
+      "own-tempo",
+      "Own Tempo"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "parental-bond",
+    "displayName": "Parental Bond",
+    "aliases": [
+      "Parental Bond",
+      "parental-bond",
+      "parentalbond"
+    ],
+    "showdownAliases": [
+      "parental-bond",
+      "Parental Bond"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "pickpocket",
+    "displayName": "Pickpocket",
+    "aliases": [
+      "Pickpocket",
+      "pickpocket"
+    ],
+    "showdownAliases": [
+      "pickpocket",
+      "Pickpocket"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "pickup",
+    "displayName": "Pickup",
+    "aliases": [
+      "Pickup",
+      "pickup"
+    ],
+    "showdownAliases": [
+      "pickup",
+      "Pickup"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "piercing-drill",
+    "displayName": "Piercing Drill",
+    "aliases": [
+      "Piercing Drill",
+      "piercing-drill",
+      "piercingdrill"
+    ],
+    "showdownAliases": [
+      "piercing-drill",
+      "Piercing Drill"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "pixilate",
+    "displayName": "Pixilate",
+    "aliases": [
+      "Pixilate",
+      "pixilate"
+    ],
+    "showdownAliases": [
+      "pixilate",
+      "Pixilate"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "plus",
+    "displayName": "Plus",
+    "aliases": [
+      "Plus",
+      "plus"
+    ],
+    "showdownAliases": [
+      "plus",
+      "Plus"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "poison-heal",
+    "displayName": "Poison Heal",
+    "aliases": [
+      "Poison Heal",
+      "poison-heal",
+      "poisonheal"
+    ],
+    "showdownAliases": [
+      "poison-heal",
+      "Poison Heal"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "poison-point",
+    "displayName": "Poison Point",
+    "aliases": [
+      "Poison Point",
+      "poison-point",
+      "poisonpoint"
+    ],
+    "showdownAliases": [
+      "poison-point",
+      "Poison Point"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "poison-touch",
+    "displayName": "Poison Touch",
+    "aliases": [
+      "Poison Touch",
+      "poison-touch",
+      "poisontouch"
+    ],
+    "showdownAliases": [
+      "poison-touch",
+      "Poison Touch"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "prankster",
+    "displayName": "Prankster",
+    "aliases": [
+      "Prankster",
+      "prankster"
+    ],
+    "showdownAliases": [
+      "prankster",
+      "Prankster"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "pressure",
+    "displayName": "Pressure",
+    "aliases": [
+      "Pressure",
+      "pressure"
+    ],
+    "showdownAliases": [
+      "pressure",
+      "Pressure"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "protean",
+    "displayName": "Protean",
+    "aliases": [
+      "Protean",
+      "protean"
+    ],
+    "showdownAliases": [
+      "protean",
+      "Protean"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "pure-power",
+    "displayName": "Pure Power",
+    "aliases": [
+      "Pure Power",
+      "pure-power",
+      "purepower"
+    ],
+    "showdownAliases": [
+      "pure-power",
+      "Pure Power"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "purifying-salt",
+    "displayName": "Purifying Salt",
+    "aliases": [
+      "Purifying Salt",
+      "purifying-salt",
+      "purifyingsalt"
+    ],
+    "showdownAliases": [
+      "purifying-salt",
+      "Purifying Salt"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "queenly-majesty",
+    "displayName": "Queenly Majesty",
+    "aliases": [
+      "Queenly Majesty",
+      "queenly-majesty",
+      "queenlymajesty"
+    ],
+    "showdownAliases": [
+      "queenly-majesty",
+      "Queenly Majesty"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "quick-draw",
+    "displayName": "Quick Draw",
+    "aliases": [
+      "Quick Draw",
+      "quick-draw",
+      "quickdraw"
+    ],
+    "showdownAliases": [
+      "quick-draw",
+      "Quick Draw"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "quick-feet",
+    "displayName": "Quick Feet",
+    "aliases": [
+      "Quick Feet",
+      "quick-feet",
+      "quickfeet"
+    ],
+    "showdownAliases": [
+      "quick-feet",
+      "Quick Feet"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "rain-dish",
+    "displayName": "Rain Dish",
+    "aliases": [
+      "Rain Dish",
+      "rain-dish",
+      "raindish"
+    ],
+    "showdownAliases": [
+      "rain-dish",
+      "Rain Dish"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "receiver",
+    "displayName": "Receiver",
+    "aliases": [
+      "Receiver",
+      "receiver"
+    ],
+    "showdownAliases": [
+      "receiver",
+      "Receiver"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "reckless",
+    "displayName": "Reckless",
+    "aliases": [
+      "Reckless",
+      "reckless"
+    ],
+    "showdownAliases": [
+      "reckless",
+      "Reckless"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "refrigerate",
+    "displayName": "Refrigerate",
+    "aliases": [
+      "Refrigerate",
+      "refrigerate"
+    ],
+    "showdownAliases": [
+      "refrigerate",
+      "Refrigerate"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "regenerator",
+    "displayName": "Regenerator",
+    "aliases": [
+      "Regenerator",
+      "regenerator"
+    ],
+    "showdownAliases": [
+      "regenerator",
+      "Regenerator"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "ripen",
+    "displayName": "Ripen",
+    "aliases": [
+      "Ripen",
+      "ripen"
+    ],
+    "showdownAliases": [
+      "ripen",
+      "Ripen"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "rivalry",
+    "displayName": "Rivalry",
+    "aliases": [
+      "Rivalry",
+      "rivalry"
+    ],
+    "showdownAliases": [
+      "rivalry",
+      "Rivalry"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "rock-head",
+    "displayName": "Rock Head",
+    "aliases": [
+      "Rock Head",
+      "rock-head",
+      "rockhead"
+    ],
+    "showdownAliases": [
+      "rock-head",
+      "Rock Head"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "rough-skin",
+    "displayName": "Rough Skin",
+    "aliases": [
+      "Rough Skin",
+      "rough-skin",
+      "roughskin"
+    ],
+    "showdownAliases": [
+      "rough-skin",
+      "Rough Skin"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "sand-force",
+    "displayName": "Sand Force",
+    "aliases": [
+      "Sand Force",
+      "sand-force",
+      "sandforce"
+    ],
+    "showdownAliases": [
+      "sand-force",
+      "Sand Force"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "sand-rush",
+    "displayName": "Sand Rush",
+    "aliases": [
+      "Sand Rush",
+      "sand-rush",
+      "sandrush"
+    ],
+    "showdownAliases": [
+      "sand-rush",
+      "Sand Rush"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "sand-spit",
+    "displayName": "Sand Spit",
+    "aliases": [
+      "Sand Spit",
+      "sand-spit",
+      "sandspit"
+    ],
+    "showdownAliases": [
+      "sand-spit",
+      "Sand Spit"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "sand-stream",
+    "displayName": "Sand Stream",
+    "aliases": [
+      "Sand Stream",
+      "sand-stream",
+      "sandstream"
+    ],
+    "showdownAliases": [
+      "sand-stream",
+      "Sand Stream"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "sand-veil",
+    "displayName": "Sand Veil",
+    "aliases": [
+      "Sand Veil",
+      "sand-veil",
+      "sandveil"
+    ],
+    "showdownAliases": [
+      "sand-veil",
+      "Sand Veil"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "sap-sipper",
+    "displayName": "Sap Sipper",
+    "aliases": [
+      "Sap Sipper",
+      "sap-sipper",
+      "sapsipper"
+    ],
+    "showdownAliases": [
+      "sap-sipper",
+      "Sap Sipper"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "scrappy",
+    "displayName": "Scrappy",
+    "aliases": [
+      "Scrappy",
+      "scrappy"
+    ],
+    "showdownAliases": [
+      "scrappy",
+      "Scrappy"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "screen-cleaner",
+    "displayName": "Screen Cleaner",
+    "aliases": [
+      "Screen Cleaner",
+      "screen-cleaner",
+      "screencleaner"
+    ],
+    "showdownAliases": [
+      "screen-cleaner",
+      "Screen Cleaner"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "shadow-tag",
+    "displayName": "Shadow Tag",
+    "aliases": [
+      "Shadow Tag",
+      "shadow-tag",
+      "shadowtag"
+    ],
+    "showdownAliases": [
+      "shadow-tag",
+      "Shadow Tag"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "sharpness",
+    "displayName": "Sharpness",
+    "aliases": [
+      "Sharpness",
+      "sharpness"
+    ],
+    "showdownAliases": [
+      "sharpness",
+      "Sharpness"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "shed-skin",
+    "displayName": "Shed Skin",
+    "aliases": [
+      "Shed Skin",
+      "shed-skin",
+      "shedskin"
+    ],
+    "showdownAliases": [
+      "shed-skin",
+      "Shed Skin"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "sheer-force",
+    "displayName": "Sheer Force",
+    "aliases": [
+      "Sheer Force",
+      "sheer-force",
+      "sheerforce"
+    ],
+    "showdownAliases": [
+      "sheer-force",
+      "Sheer Force"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "shell-armor",
+    "displayName": "Shell Armor",
+    "aliases": [
+      "Shell Armor",
+      "shell-armor",
+      "shellarmor"
+    ],
+    "showdownAliases": [
+      "shell-armor",
+      "Shell Armor"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "shield-dust",
+    "displayName": "Shield Dust",
+    "aliases": [
+      "Shield Dust",
+      "shield-dust",
+      "shielddust"
+    ],
+    "showdownAliases": [
+      "shield-dust",
+      "Shield Dust"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "simple",
+    "displayName": "Simple",
+    "aliases": [
+      "Simple",
+      "simple"
+    ],
+    "showdownAliases": [
+      "simple",
+      "Simple"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "skill-link",
+    "displayName": "Skill Link",
+    "aliases": [
+      "Skill Link",
+      "skill-link",
+      "skilllink"
+    ],
+    "showdownAliases": [
+      "skill-link",
+      "Skill Link"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "slush-rush",
+    "displayName": "Slush Rush",
+    "aliases": [
+      "Slush Rush",
+      "slush-rush",
+      "slushrush"
+    ],
+    "showdownAliases": [
+      "slush-rush",
+      "Slush Rush"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "sniper",
+    "displayName": "Sniper",
+    "aliases": [
+      "Sniper",
+      "sniper"
+    ],
+    "showdownAliases": [
+      "sniper",
+      "Sniper"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "snow-cloak",
+    "displayName": "Snow Cloak",
+    "aliases": [
+      "Snow Cloak",
+      "snow-cloak",
+      "snowcloak"
+    ],
+    "showdownAliases": [
+      "snow-cloak",
+      "Snow Cloak"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "snow-warning",
+    "displayName": "Snow Warning",
+    "aliases": [
+      "Snow Warning",
+      "snow-warning",
+      "snowwarning"
+    ],
+    "showdownAliases": [
+      "snow-warning",
+      "Snow Warning"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "solar-power",
+    "displayName": "Solar Power",
+    "aliases": [
+      "Solar Power",
+      "solar-power",
+      "solarpower"
+    ],
+    "showdownAliases": [
+      "solar-power",
+      "Solar Power"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "solid-rock",
+    "displayName": "Solid Rock",
+    "aliases": [
+      "Solid Rock",
+      "solid-rock",
+      "solidrock"
+    ],
+    "showdownAliases": [
+      "solid-rock",
+      "Solid Rock"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "soundproof",
+    "displayName": "Soundproof",
+    "aliases": [
+      "Soundproof",
+      "soundproof"
+    ],
+    "showdownAliases": [
+      "soundproof",
+      "Soundproof"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "speed-boost",
+    "displayName": "Speed Boost",
+    "aliases": [
+      "Speed Boost",
+      "speed-boost",
+      "speedboost"
+    ],
+    "showdownAliases": [
+      "speed-boost",
+      "Speed Boost"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "spicy-spray",
+    "displayName": "Spicy Spray",
+    "aliases": [
+      "Spicy Spray",
+      "spicy-spray",
+      "spicyspray"
+    ],
+    "showdownAliases": [
+      "spicy-spray",
+      "Spicy Spray"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "stall",
+    "displayName": "Stall",
+    "aliases": [
+      "Stall",
+      "stall"
+    ],
+    "showdownAliases": [
+      "stall",
+      "Stall"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "stalwart",
+    "displayName": "Stalwart",
+    "aliases": [
+      "Stalwart",
+      "stalwart"
+    ],
+    "showdownAliases": [
+      "stalwart",
+      "Stalwart"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "stamina",
+    "displayName": "Stamina",
+    "aliases": [
+      "Stamina",
+      "stamina"
+    ],
+    "showdownAliases": [
+      "stamina",
+      "Stamina"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "stance-change",
+    "displayName": "Stance Change",
+    "aliases": [
+      "Stance Change",
+      "stance-change",
+      "stancechange"
+    ],
+    "showdownAliases": [
+      "stance-change",
+      "Stance Change"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "static",
+    "displayName": "Static",
+    "aliases": [
+      "Static",
+      "static"
+    ],
+    "showdownAliases": [
+      "static",
+      "Static"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "steadfast",
+    "displayName": "Steadfast",
+    "aliases": [
+      "Steadfast",
+      "steadfast"
+    ],
+    "showdownAliases": [
+      "steadfast",
+      "Steadfast"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "stench",
+    "displayName": "Stench",
+    "aliases": [
+      "Stench",
+      "stench"
+    ],
+    "showdownAliases": [
+      "stench",
+      "Stench"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "sticky-hold",
+    "displayName": "Sticky Hold",
+    "aliases": [
+      "Sticky Hold",
+      "sticky-hold",
+      "stickyhold"
+    ],
+    "showdownAliases": [
+      "sticky-hold",
+      "Sticky Hold"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "strong-jaw",
+    "displayName": "Strong Jaw",
+    "aliases": [
+      "Strong Jaw",
+      "strong-jaw",
+      "strongjaw"
+    ],
+    "showdownAliases": [
+      "strong-jaw",
+      "Strong Jaw"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "sturdy",
+    "displayName": "Sturdy",
+    "aliases": [
+      "Sturdy",
+      "sturdy"
+    ],
+    "showdownAliases": [
+      "sturdy",
+      "Sturdy"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "suction-cups",
+    "displayName": "Suction Cups",
+    "aliases": [
+      "Suction Cups",
+      "suction-cups",
+      "suctioncups"
+    ],
+    "showdownAliases": [
+      "suction-cups",
+      "Suction Cups"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "super-luck",
+    "displayName": "Super Luck",
+    "aliases": [
+      "Super Luck",
+      "super-luck",
+      "superluck"
+    ],
+    "showdownAliases": [
+      "super-luck",
+      "Super Luck"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "supersweet-syrup",
+    "displayName": "Supersweet Syrup",
+    "aliases": [
+      "Supersweet Syrup",
+      "supersweet-syrup",
+      "supersweetsyrup"
+    ],
+    "showdownAliases": [
+      "supersweet-syrup",
+      "Supersweet Syrup"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "supreme-overlord",
+    "displayName": "Supreme Overlord",
+    "aliases": [
+      "Supreme Overlord",
+      "supreme-overlord",
+      "supremeoverlord"
+    ],
+    "showdownAliases": [
+      "supreme-overlord",
+      "Supreme Overlord"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "surge-surfer",
+    "displayName": "Surge Surfer",
+    "aliases": [
+      "Surge Surfer",
+      "surge-surfer",
+      "surgesurfer"
+    ],
+    "showdownAliases": [
+      "surge-surfer",
+      "Surge Surfer"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "swarm",
+    "displayName": "Swarm",
+    "aliases": [
+      "Swarm",
+      "swarm"
+    ],
+    "showdownAliases": [
+      "swarm",
+      "Swarm"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "sweet-veil",
+    "displayName": "Sweet Veil",
+    "aliases": [
+      "Sweet Veil",
+      "sweet-veil",
+      "sweetveil"
+    ],
+    "showdownAliases": [
+      "sweet-veil",
+      "Sweet Veil"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "swift-swim",
+    "displayName": "Swift Swim",
+    "aliases": [
+      "Swift Swim",
+      "swift-swim",
+      "swiftswim"
+    ],
+    "showdownAliases": [
+      "swift-swim",
+      "Swift Swim"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "symbiosis",
+    "displayName": "Symbiosis",
+    "aliases": [
+      "Symbiosis",
+      "symbiosis"
+    ],
+    "showdownAliases": [
+      "symbiosis",
+      "Symbiosis"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "synchronize",
+    "displayName": "Synchronize",
+    "aliases": [
+      "Synchronize",
+      "synchronize"
+    ],
+    "showdownAliases": [
+      "synchronize",
+      "Synchronize"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "tangled-feet",
+    "displayName": "Tangled Feet",
+    "aliases": [
+      "Tangled Feet",
+      "tangled-feet",
+      "tangledfeet"
+    ],
+    "showdownAliases": [
+      "tangled-feet",
+      "Tangled Feet"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "technician",
+    "displayName": "Technician",
+    "aliases": [
+      "Technician",
+      "technician"
+    ],
+    "showdownAliases": [
+      "technician",
+      "Technician"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "telepathy",
+    "displayName": "Telepathy",
+    "aliases": [
+      "Telepathy",
+      "telepathy"
+    ],
+    "showdownAliases": [
+      "telepathy",
+      "Telepathy"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "thick-fat",
+    "displayName": "Thick Fat",
+    "aliases": [
+      "Thick Fat",
+      "thick-fat",
+      "thickfat"
+    ],
+    "showdownAliases": [
+      "thick-fat",
+      "Thick Fat"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "torrent",
+    "displayName": "Torrent",
+    "aliases": [
+      "Torrent",
+      "torrent"
+    ],
+    "showdownAliases": [
+      "torrent",
+      "Torrent"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "tough-claws",
+    "displayName": "Tough Claws",
+    "aliases": [
+      "Tough Claws",
+      "tough-claws",
+      "toughclaws"
+    ],
+    "showdownAliases": [
+      "tough-claws",
+      "Tough Claws"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "toxic-debris",
+    "displayName": "Toxic Debris",
+    "aliases": [
+      "Toxic Debris",
+      "toxic-debris",
+      "toxicdebris"
+    ],
+    "showdownAliases": [
+      "toxic-debris",
+      "Toxic Debris"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "trace",
+    "displayName": "Trace",
+    "aliases": [
+      "Trace",
+      "trace"
+    ],
+    "showdownAliases": [
+      "trace",
+      "Trace"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "unaware",
+    "displayName": "Unaware",
+    "aliases": [
+      "Unaware",
+      "unaware"
+    ],
+    "showdownAliases": [
+      "unaware",
+      "Unaware"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "unburden",
+    "displayName": "Unburden",
+    "aliases": [
+      "Unburden",
+      "unburden"
+    ],
+    "showdownAliases": [
+      "unburden",
+      "Unburden"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "unnerve",
+    "displayName": "Unnerve",
+    "aliases": [
+      "Unnerve",
+      "unnerve"
+    ],
+    "showdownAliases": [
+      "unnerve",
+      "Unnerve"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "unseen-fist",
+    "displayName": "Unseen Fist",
+    "aliases": [
+      "Unseen Fist",
+      "unseen-fist",
+      "unseenfist"
+    ],
+    "showdownAliases": [
+      "unseen-fist",
+      "Unseen Fist"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "vital-spirit",
+    "displayName": "Vital Spirit",
+    "aliases": [
+      "Vital Spirit",
+      "vital-spirit",
+      "vitalspirit"
+    ],
+    "showdownAliases": [
+      "vital-spirit",
+      "Vital Spirit"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "volt-absorb",
+    "displayName": "Volt Absorb",
+    "aliases": [
+      "Volt Absorb",
+      "volt-absorb",
+      "voltabsorb"
+    ],
+    "showdownAliases": [
+      "volt-absorb",
+      "Volt Absorb"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "wandering-spirit",
+    "displayName": "Wandering Spirit",
+    "aliases": [
+      "Wandering Spirit",
+      "wandering-spirit",
+      "wanderingspirit"
+    ],
+    "showdownAliases": [
+      "wandering-spirit",
+      "Wandering Spirit"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "water-absorb",
+    "displayName": "Water Absorb",
+    "aliases": [
+      "Water Absorb",
+      "water-absorb",
+      "waterabsorb"
+    ],
+    "showdownAliases": [
+      "water-absorb",
+      "Water Absorb"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "water-bubble",
+    "displayName": "Water Bubble",
+    "aliases": [
+      "Water Bubble",
+      "water-bubble",
+      "waterbubble"
+    ],
+    "showdownAliases": [
+      "water-bubble",
+      "Water Bubble"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "weak-armor",
+    "displayName": "Weak Armor",
+    "aliases": [
+      "Weak Armor",
+      "weak-armor",
+      "weakarmor"
+    ],
+    "showdownAliases": [
+      "weak-armor",
+      "Weak Armor"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "white-smoke",
+    "displayName": "White Smoke",
+    "aliases": [
+      "White Smoke",
+      "white-smoke",
+      "whitesmoke"
+    ],
+    "showdownAliases": [
+      "white-smoke",
+      "White Smoke"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  },
+  {
+    "id": "zero-to-hero",
+    "displayName": "Zero to Hero",
+    "aliases": [
+      "Zero to Hero",
+      "zero-to-hero",
+      "zerotohero"
+    ],
+    "showdownAliases": [
+      "zero-to-hero",
+      "Zero to Hero"
+    ],
+    "legalIn": [
+      "M-B"
+    ]
+  }
+]

@@ -13,11 +13,10 @@ should be copied from the builder repo
 | `stat-alignments.json` | slug → displayName |
 | `code-index.json` | number ↔ slug (QR carrier only — not yet implemented) |
 
-The files currently checked in are **empty placeholders** because the builder
-repo was not available when the cruncher was built. Everything still works:
-TSBv1 slug ids are self-describing, so the app falls back to prettifying the
-slug (`fake-out` → `Fake Out`). Once the real snapshots are copied in, exact
-display names are used and unknown slugs get flagged as stale-data warnings.
+The checked-in files are a real snapshot copied from the builder repo. If a
+snapshot is ever missing or stale, everything still works: TSBv1 slug ids are
+self-describing, so the app falls back to prettifying the slug
+(`fake-out` → `Fake Out`); unknown slugs get flagged as stale-data warnings.
 
 Each record must have at least `id` (the slug) and `displayName`; extra fields
 are ignored. Re-copy these whenever the regulation data is re-exported.

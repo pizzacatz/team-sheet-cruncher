@@ -1,1 +1,2743 @@
-[]
+[
+  {
+    "id": "abomasite",
+    "displayName": "Abomasite",
+    "aliases": [
+      "Abomasite",
+      "abomasite"
+    ],
+    "showdownAliases": [
+      "abomasite",
+      "Abomasite"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": [
+      "abomasnow"
+    ]
+  },
+  {
+    "id": "absolite",
+    "displayName": "Absolite",
+    "aliases": [
+      "Absolite",
+      "absolite"
+    ],
+    "showdownAliases": [
+      "absolite",
+      "Absolite"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": [
+      "absol"
+    ]
+  },
+  {
+    "id": "aerodactylite",
+    "displayName": "Aerodactylite",
+    "aliases": [
+      "Aerodactylite",
+      "aerodactylite"
+    ],
+    "showdownAliases": [
+      "aerodactylite",
+      "Aerodactylite"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": [
+      "aerodactyl"
+    ]
+  },
+  {
+    "id": "aggronite",
+    "displayName": "Aggronite",
+    "aliases": [
+      "Aggronite",
+      "aggronite"
+    ],
+    "showdownAliases": [
+      "aggronite",
+      "Aggronite"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": [
+      "aggron"
+    ]
+  },
+  {
+    "id": "alakazite",
+    "displayName": "Alakazite",
+    "aliases": [
+      "Alakazite",
+      "alakazite"
+    ],
+    "showdownAliases": [
+      "alakazite",
+      "Alakazite"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": [
+      "alakazam"
+    ]
+  },
+  {
+    "id": "altarianite",
+    "displayName": "Altarianite",
+    "aliases": [
+      "Altarianite",
+      "altarianite"
+    ],
+    "showdownAliases": [
+      "altarianite",
+      "Altarianite"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": [
+      "altaria"
+    ]
+  },
+  {
+    "id": "ampharosite",
+    "displayName": "Ampharosite",
+    "aliases": [
+      "Ampharosite",
+      "ampharosite"
+    ],
+    "showdownAliases": [
+      "ampharosite",
+      "Ampharosite"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": [
+      "ampharos"
+    ]
+  },
+  {
+    "id": "aspear-berry",
+    "displayName": "Aspear Berry",
+    "aliases": [
+      "Aspear Berry",
+      "aspear-berry",
+      "aspearberry"
+    ],
+    "showdownAliases": [
+      "aspear-berry",
+      "Aspear Berry"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": []
+  },
+  {
+    "id": "audinite",
+    "displayName": "Audinite",
+    "aliases": [
+      "Audinite",
+      "audinite"
+    ],
+    "showdownAliases": [
+      "audinite",
+      "Audinite"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": [
+      "audino"
+    ]
+  },
+  {
+    "id": "babiri-berry",
+    "displayName": "Babiri Berry",
+    "aliases": [
+      "Babiri Berry",
+      "babiri-berry",
+      "babiriberry"
+    ],
+    "showdownAliases": [
+      "babiri-berry",
+      "Babiri Berry"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": []
+  },
+  {
+    "id": "banettite",
+    "displayName": "Banettite",
+    "aliases": [
+      "Banettite",
+      "banettite"
+    ],
+    "showdownAliases": [
+      "banettite",
+      "Banettite"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": [
+      "banette"
+    ]
+  },
+  {
+    "id": "barbaracite",
+    "displayName": "Barbaracite",
+    "aliases": [
+      "Barbaracite",
+      "barbaracite"
+    ],
+    "showdownAliases": [
+      "barbaracite",
+      "Barbaracite"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": [
+      "barbaracle"
+    ]
+  },
+  {
+    "id": "beedrillite",
+    "displayName": "Beedrillite",
+    "aliases": [
+      "Beedrillite",
+      "beedrillite"
+    ],
+    "showdownAliases": [
+      "beedrillite",
+      "Beedrillite"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": [
+      "beedrill"
+    ]
+  },
+  {
+    "id": "big-root",
+    "displayName": "Big Root",
+    "aliases": [
+      "Big Root",
+      "big-root",
+      "bigroot"
+    ],
+    "showdownAliases": [
+      "big-root",
+      "Big Root"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": []
+  },
+  {
+    "id": "black-belt",
+    "displayName": "Black Belt",
+    "aliases": [
+      "Black Belt",
+      "black-belt",
+      "blackbelt"
+    ],
+    "showdownAliases": [
+      "black-belt",
+      "Black Belt"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": []
+  },
+  {
+    "id": "black-glasses",
+    "displayName": "Black Glasses",
+    "aliases": [
+      "Black Glasses",
+      "black-glasses",
+      "blackglasses"
+    ],
+    "showdownAliases": [
+      "black-glasses",
+      "Black Glasses"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": []
+  },
+  {
+    "id": "blastoisinite",
+    "displayName": "Blastoisinite",
+    "aliases": [
+      "Blastoisinite",
+      "blastoisinite"
+    ],
+    "showdownAliases": [
+      "blastoisinite",
+      "Blastoisinite"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": [
+      "blastoise"
+    ]
+  },
+  {
+    "id": "blazikenite",
+    "displayName": "Blazikenite",
+    "aliases": [
+      "Blazikenite",
+      "blazikenite"
+    ],
+    "showdownAliases": [
+      "blazikenite",
+      "Blazikenite"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": [
+      "blaziken"
+    ]
+  },
+  {
+    "id": "bright-powder",
+    "displayName": "Bright Powder",
+    "aliases": [
+      "Bright Powder",
+      "bright-powder",
+      "brightpowder"
+    ],
+    "showdownAliases": [
+      "bright-powder",
+      "Bright Powder"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": []
+  },
+  {
+    "id": "cameruptite",
+    "displayName": "Cameruptite",
+    "aliases": [
+      "Cameruptite",
+      "cameruptite"
+    ],
+    "showdownAliases": [
+      "cameruptite",
+      "Cameruptite"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": [
+      "camerupt"
+    ]
+  },
+  {
+    "id": "chandelurite",
+    "displayName": "Chandelurite",
+    "aliases": [
+      "Chandelurite",
+      "chandelurite"
+    ],
+    "showdownAliases": [
+      "chandelurite",
+      "Chandelurite"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": [
+      "chandelure"
+    ]
+  },
+  {
+    "id": "charcoal",
+    "displayName": "Charcoal",
+    "aliases": [
+      "Charcoal",
+      "charcoal"
+    ],
+    "showdownAliases": [
+      "charcoal",
+      "Charcoal"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": []
+  },
+  {
+    "id": "charizardite-x",
+    "displayName": "Charizardite X",
+    "aliases": [
+      "Charizardite X",
+      "charizardite-x",
+      "charizarditex"
+    ],
+    "showdownAliases": [
+      "charizardite-x",
+      "Charizardite X"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": [
+      "charizard"
+    ]
+  },
+  {
+    "id": "charizardite-y",
+    "displayName": "Charizardite Y",
+    "aliases": [
+      "Charizardite Y",
+      "charizardite-y",
+      "charizarditey"
+    ],
+    "showdownAliases": [
+      "charizardite-y",
+      "Charizardite Y"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": [
+      "charizard"
+    ]
+  },
+  {
+    "id": "charti-berry",
+    "displayName": "Charti Berry",
+    "aliases": [
+      "Charti Berry",
+      "charti-berry",
+      "chartiberry"
+    ],
+    "showdownAliases": [
+      "charti-berry",
+      "Charti Berry"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": []
+  },
+  {
+    "id": "cheri-berry",
+    "displayName": "Cheri Berry",
+    "aliases": [
+      "Cheri Berry",
+      "cheri-berry",
+      "cheriberry"
+    ],
+    "showdownAliases": [
+      "cheri-berry",
+      "Cheri Berry"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": []
+  },
+  {
+    "id": "chesnaughtite",
+    "displayName": "Chesnaughtite",
+    "aliases": [
+      "Chesnaughtite",
+      "chesnaughtite"
+    ],
+    "showdownAliases": [
+      "chesnaughtite",
+      "Chesnaughtite"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": [
+      "chesnaught"
+    ]
+  },
+  {
+    "id": "chesto-berry",
+    "displayName": "Chesto Berry",
+    "aliases": [
+      "Chesto Berry",
+      "chesto-berry",
+      "chestoberry"
+    ],
+    "showdownAliases": [
+      "chesto-berry",
+      "Chesto Berry"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": []
+  },
+  {
+    "id": "chilan-berry",
+    "displayName": "Chilan Berry",
+    "aliases": [
+      "Chilan Berry",
+      "chilan-berry",
+      "chilanberry"
+    ],
+    "showdownAliases": [
+      "chilan-berry",
+      "Chilan Berry"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": []
+  },
+  {
+    "id": "chimechite",
+    "displayName": "Chimechite",
+    "aliases": [
+      "Chimechite",
+      "chimechite"
+    ],
+    "showdownAliases": [
+      "chimechite",
+      "Chimechite"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": [
+      "chimecho"
+    ]
+  },
+  {
+    "id": "choice-scarf",
+    "displayName": "Choice Scarf",
+    "aliases": [
+      "Choice Scarf",
+      "choice-scarf",
+      "choicescarf"
+    ],
+    "showdownAliases": [
+      "choice-scarf",
+      "Choice Scarf"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": []
+  },
+  {
+    "id": "chople-berry",
+    "displayName": "Chople Berry",
+    "aliases": [
+      "Chople Berry",
+      "chople-berry",
+      "chopleberry"
+    ],
+    "showdownAliases": [
+      "chople-berry",
+      "Chople Berry"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": []
+  },
+  {
+    "id": "clefablite",
+    "displayName": "Clefablite",
+    "aliases": [
+      "Clefablite",
+      "clefablite"
+    ],
+    "showdownAliases": [
+      "clefablite",
+      "Clefablite"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": [
+      "clefable"
+    ]
+  },
+  {
+    "id": "coba-berry",
+    "displayName": "Coba Berry",
+    "aliases": [
+      "Coba Berry",
+      "coba-berry",
+      "cobaberry"
+    ],
+    "showdownAliases": [
+      "coba-berry",
+      "Coba Berry"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": []
+  },
+  {
+    "id": "colbur-berry",
+    "displayName": "Colbur Berry",
+    "aliases": [
+      "Colbur Berry",
+      "colbur-berry",
+      "colburberry"
+    ],
+    "showdownAliases": [
+      "colbur-berry",
+      "Colbur Berry"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": []
+  },
+  {
+    "id": "crabominite",
+    "displayName": "Crabominite",
+    "aliases": [
+      "Crabominite",
+      "crabominite"
+    ],
+    "showdownAliases": [
+      "crabominite",
+      "Crabominite"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": [
+      "crabominable"
+    ]
+  },
+  {
+    "id": "damp-rock",
+    "displayName": "Damp Rock",
+    "aliases": [
+      "Damp Rock",
+      "damp-rock",
+      "damprock"
+    ],
+    "showdownAliases": [
+      "damp-rock",
+      "Damp Rock"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": []
+  },
+  {
+    "id": "delphoxite",
+    "displayName": "Delphoxite",
+    "aliases": [
+      "Delphoxite",
+      "delphoxite"
+    ],
+    "showdownAliases": [
+      "delphoxite",
+      "Delphoxite"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": [
+      "delphox"
+    ]
+  },
+  {
+    "id": "dragalgite",
+    "displayName": "Dragalgite",
+    "aliases": [
+      "Dragalgite",
+      "dragalgite"
+    ],
+    "showdownAliases": [
+      "dragalgite",
+      "Dragalgite"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": [
+      "dragalge"
+    ]
+  },
+  {
+    "id": "dragon-fang",
+    "displayName": "Dragon Fang",
+    "aliases": [
+      "Dragon Fang",
+      "dragon-fang",
+      "dragonfang"
+    ],
+    "showdownAliases": [
+      "dragon-fang",
+      "Dragon Fang"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": []
+  },
+  {
+    "id": "dragoninite",
+    "displayName": "Dragoninite",
+    "aliases": [
+      "Dragoninite",
+      "dragoninite"
+    ],
+    "showdownAliases": [
+      "dragoninite",
+      "Dragoninite"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": [
+      "dragonite"
+    ]
+  },
+  {
+    "id": "drampanite",
+    "displayName": "Drampanite",
+    "aliases": [
+      "Drampanite",
+      "drampanite"
+    ],
+    "showdownAliases": [
+      "drampanite",
+      "Drampanite"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": [
+      "drampa"
+    ]
+  },
+  {
+    "id": "eelektrossite",
+    "displayName": "Eelektrossite",
+    "aliases": [
+      "Eelektrossite",
+      "eelektrossite"
+    ],
+    "showdownAliases": [
+      "eelektrossite",
+      "Eelektrossite"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": [
+      "eelektross"
+    ]
+  },
+  {
+    "id": "emboarite",
+    "displayName": "Emboarite",
+    "aliases": [
+      "Emboarite",
+      "emboarite"
+    ],
+    "showdownAliases": [
+      "emboarite",
+      "Emboarite"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": [
+      "emboar"
+    ]
+  },
+  {
+    "id": "excadrite",
+    "displayName": "Excadrite",
+    "aliases": [
+      "Excadrite",
+      "excadrite"
+    ],
+    "showdownAliases": [
+      "excadrite",
+      "Excadrite"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": [
+      "excadrill"
+    ]
+  },
+  {
+    "id": "expert-belt",
+    "displayName": "Expert Belt",
+    "aliases": [
+      "Expert Belt",
+      "expert-belt",
+      "expertbelt"
+    ],
+    "showdownAliases": [
+      "expert-belt",
+      "Expert Belt"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": []
+  },
+  {
+    "id": "fairy-feather",
+    "displayName": "Fairy Feather",
+    "aliases": [
+      "Fairy Feather",
+      "fairy-feather",
+      "fairyfeather"
+    ],
+    "showdownAliases": [
+      "fairy-feather",
+      "Fairy Feather"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": []
+  },
+  {
+    "id": "falinksite",
+    "displayName": "Falinksite",
+    "aliases": [
+      "Falinksite",
+      "falinksite"
+    ],
+    "showdownAliases": [
+      "falinksite",
+      "Falinksite"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": [
+      "falinks"
+    ]
+  },
+  {
+    "id": "feraligite",
+    "displayName": "Feraligite",
+    "aliases": [
+      "Feraligite",
+      "feraligite"
+    ],
+    "showdownAliases": [
+      "feraligite",
+      "Feraligite"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": [
+      "feraligatr"
+    ]
+  },
+  {
+    "id": "floettite",
+    "displayName": "Floettite",
+    "aliases": [
+      "Floettite",
+      "floettite"
+    ],
+    "showdownAliases": [
+      "floettite",
+      "Floettite"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": [
+      "floetteeternal"
+    ]
+  },
+  {
+    "id": "focus-band",
+    "displayName": "Focus Band",
+    "aliases": [
+      "Focus Band",
+      "focus-band",
+      "focusband"
+    ],
+    "showdownAliases": [
+      "focus-band",
+      "Focus Band"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": []
+  },
+  {
+    "id": "focus-sash",
+    "displayName": "Focus Sash",
+    "aliases": [
+      "Focus Sash",
+      "focus-sash",
+      "focussash"
+    ],
+    "showdownAliases": [
+      "focus-sash",
+      "Focus Sash"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": []
+  },
+  {
+    "id": "froslassite",
+    "displayName": "Froslassite",
+    "aliases": [
+      "Froslassite",
+      "froslassite"
+    ],
+    "showdownAliases": [
+      "froslassite",
+      "Froslassite"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": [
+      "froslass"
+    ]
+  },
+  {
+    "id": "galladite",
+    "displayName": "Galladite",
+    "aliases": [
+      "Galladite",
+      "galladite"
+    ],
+    "showdownAliases": [
+      "galladite",
+      "Galladite"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": [
+      "gallade"
+    ]
+  },
+  {
+    "id": "garchompite",
+    "displayName": "Garchompite",
+    "aliases": [
+      "Garchompite",
+      "garchompite"
+    ],
+    "showdownAliases": [
+      "garchompite",
+      "Garchompite"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": [
+      "garchomp"
+    ]
+  },
+  {
+    "id": "gardevoirite",
+    "displayName": "Gardevoirite",
+    "aliases": [
+      "Gardevoirite",
+      "gardevoirite"
+    ],
+    "showdownAliases": [
+      "gardevoirite",
+      "Gardevoirite"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": [
+      "gardevoir"
+    ]
+  },
+  {
+    "id": "gengarite",
+    "displayName": "Gengarite",
+    "aliases": [
+      "Gengarite",
+      "gengarite"
+    ],
+    "showdownAliases": [
+      "gengarite",
+      "Gengarite"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": [
+      "gengar"
+    ]
+  },
+  {
+    "id": "glalitite",
+    "displayName": "Glalitite",
+    "aliases": [
+      "Glalitite",
+      "glalitite"
+    ],
+    "showdownAliases": [
+      "glalitite",
+      "Glalitite"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": [
+      "glalie"
+    ]
+  },
+  {
+    "id": "glimmoranite",
+    "displayName": "Glimmoranite",
+    "aliases": [
+      "Glimmoranite",
+      "glimmoranite"
+    ],
+    "showdownAliases": [
+      "glimmoranite",
+      "Glimmoranite"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": [
+      "glimmora"
+    ]
+  },
+  {
+    "id": "golurkite",
+    "displayName": "Golurkite",
+    "aliases": [
+      "Golurkite",
+      "golurkite"
+    ],
+    "showdownAliases": [
+      "golurkite",
+      "Golurkite"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": [
+      "golurk"
+    ]
+  },
+  {
+    "id": "greninjite",
+    "displayName": "Greninjite",
+    "aliases": [
+      "Greninjite",
+      "greninjite"
+    ],
+    "showdownAliases": [
+      "greninjite",
+      "Greninjite"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": [
+      "greninja"
+    ]
+  },
+  {
+    "id": "gyaradosite",
+    "displayName": "Gyaradosite",
+    "aliases": [
+      "Gyaradosite",
+      "gyaradosite"
+    ],
+    "showdownAliases": [
+      "gyaradosite",
+      "Gyaradosite"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": [
+      "gyarados"
+    ]
+  },
+  {
+    "id": "haban-berry",
+    "displayName": "Haban Berry",
+    "aliases": [
+      "Haban Berry",
+      "haban-berry",
+      "habanberry"
+    ],
+    "showdownAliases": [
+      "haban-berry",
+      "Haban Berry"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": []
+  },
+  {
+    "id": "hard-stone",
+    "displayName": "Hard Stone",
+    "aliases": [
+      "Hard Stone",
+      "hard-stone",
+      "hardstone"
+    ],
+    "showdownAliases": [
+      "hard-stone",
+      "Hard Stone"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": []
+  },
+  {
+    "id": "hawluchanite",
+    "displayName": "Hawluchanite",
+    "aliases": [
+      "Hawluchanite",
+      "hawluchanite"
+    ],
+    "showdownAliases": [
+      "hawluchanite",
+      "Hawluchanite"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": [
+      "hawlucha"
+    ]
+  },
+  {
+    "id": "heat-rock",
+    "displayName": "Heat Rock",
+    "aliases": [
+      "Heat Rock",
+      "heat-rock",
+      "heatrock"
+    ],
+    "showdownAliases": [
+      "heat-rock",
+      "Heat Rock"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": []
+  },
+  {
+    "id": "heracronite",
+    "displayName": "Heracronite",
+    "aliases": [
+      "Heracronite",
+      "heracronite"
+    ],
+    "showdownAliases": [
+      "heracronite",
+      "Heracronite"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": [
+      "heracross"
+    ]
+  },
+  {
+    "id": "houndoominite",
+    "displayName": "Houndoominite",
+    "aliases": [
+      "Houndoominite",
+      "houndoominite"
+    ],
+    "showdownAliases": [
+      "houndoominite",
+      "Houndoominite"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": [
+      "houndoom"
+    ]
+  },
+  {
+    "id": "icy-rock",
+    "displayName": "Icy Rock",
+    "aliases": [
+      "Icy Rock",
+      "icy-rock",
+      "icyrock"
+    ],
+    "showdownAliases": [
+      "icy-rock",
+      "Icy Rock"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": []
+  },
+  {
+    "id": "iron-ball",
+    "displayName": "Iron Ball",
+    "aliases": [
+      "Iron Ball",
+      "iron-ball",
+      "ironball"
+    ],
+    "showdownAliases": [
+      "iron-ball",
+      "Iron Ball"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": []
+  },
+  {
+    "id": "kangaskhanite",
+    "displayName": "Kangaskhanite",
+    "aliases": [
+      "Kangaskhanite",
+      "kangaskhanite"
+    ],
+    "showdownAliases": [
+      "kangaskhanite",
+      "Kangaskhanite"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": [
+      "kangaskhan"
+    ]
+  },
+  {
+    "id": "kasib-berry",
+    "displayName": "Kasib Berry",
+    "aliases": [
+      "Kasib Berry",
+      "kasib-berry",
+      "kasibberry"
+    ],
+    "showdownAliases": [
+      "kasib-berry",
+      "Kasib Berry"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": []
+  },
+  {
+    "id": "kebia-berry",
+    "displayName": "Kebia Berry",
+    "aliases": [
+      "Kebia Berry",
+      "kebia-berry",
+      "kebiaberry"
+    ],
+    "showdownAliases": [
+      "kebia-berry",
+      "Kebia Berry"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": []
+  },
+  {
+    "id": "kings-rock",
+    "displayName": "King's Rock",
+    "aliases": [
+      "King's Rock",
+      "kings-rock",
+      "kingsrock"
+    ],
+    "showdownAliases": [
+      "kings-rock",
+      "King's Rock"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": []
+  },
+  {
+    "id": "leftovers",
+    "displayName": "Leftovers",
+    "aliases": [
+      "Leftovers",
+      "leftovers"
+    ],
+    "showdownAliases": [
+      "leftovers",
+      "Leftovers"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": []
+  },
+  {
+    "id": "leppa-berry",
+    "displayName": "Leppa Berry",
+    "aliases": [
+      "Leppa Berry",
+      "leppa-berry",
+      "leppaberry"
+    ],
+    "showdownAliases": [
+      "leppa-berry",
+      "Leppa Berry"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": []
+  },
+  {
+    "id": "life-orb",
+    "displayName": "Life Orb",
+    "aliases": [
+      "Life Orb",
+      "life-orb",
+      "lifeorb"
+    ],
+    "showdownAliases": [
+      "life-orb",
+      "Life Orb"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": []
+  },
+  {
+    "id": "light-ball",
+    "displayName": "Light Ball",
+    "aliases": [
+      "Light Ball",
+      "light-ball",
+      "lightball"
+    ],
+    "showdownAliases": [
+      "light-ball",
+      "Light Ball"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": []
+  },
+  {
+    "id": "light-clay",
+    "displayName": "Light Clay",
+    "aliases": [
+      "Light Clay",
+      "light-clay",
+      "lightclay"
+    ],
+    "showdownAliases": [
+      "light-clay",
+      "Light Clay"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": []
+  },
+  {
+    "id": "lopunnite",
+    "displayName": "Lopunnite",
+    "aliases": [
+      "Lopunnite",
+      "lopunnite"
+    ],
+    "showdownAliases": [
+      "lopunnite",
+      "Lopunnite"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": [
+      "lopunny"
+    ]
+  },
+  {
+    "id": "lucarionite",
+    "displayName": "Lucarionite",
+    "aliases": [
+      "Lucarionite",
+      "lucarionite"
+    ],
+    "showdownAliases": [
+      "lucarionite",
+      "Lucarionite"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": [
+      "lucario"
+    ]
+  },
+  {
+    "id": "lum-berry",
+    "displayName": "Lum Berry",
+    "aliases": [
+      "Lum Berry",
+      "lum-berry",
+      "lumberry"
+    ],
+    "showdownAliases": [
+      "lum-berry",
+      "Lum Berry"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": []
+  },
+  {
+    "id": "magnet",
+    "displayName": "Magnet",
+    "aliases": [
+      "Magnet",
+      "magnet"
+    ],
+    "showdownAliases": [
+      "magnet",
+      "Magnet"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": []
+  },
+  {
+    "id": "malamarite",
+    "displayName": "Malamarite",
+    "aliases": [
+      "Malamarite",
+      "malamarite"
+    ],
+    "showdownAliases": [
+      "malamarite",
+      "Malamarite"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": [
+      "malamar"
+    ]
+  },
+  {
+    "id": "manectite",
+    "displayName": "Manectite",
+    "aliases": [
+      "Manectite",
+      "manectite"
+    ],
+    "showdownAliases": [
+      "manectite",
+      "Manectite"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": [
+      "manectric"
+    ]
+  },
+  {
+    "id": "mawilite",
+    "displayName": "Mawilite",
+    "aliases": [
+      "Mawilite",
+      "mawilite"
+    ],
+    "showdownAliases": [
+      "mawilite",
+      "Mawilite"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": [
+      "mawile"
+    ]
+  },
+  {
+    "id": "medichamite",
+    "displayName": "Medichamite",
+    "aliases": [
+      "Medichamite",
+      "medichamite"
+    ],
+    "showdownAliases": [
+      "medichamite",
+      "Medichamite"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": [
+      "medicham"
+    ]
+  },
+  {
+    "id": "meganiumite",
+    "displayName": "Meganiumite",
+    "aliases": [
+      "Meganiumite",
+      "meganiumite"
+    ],
+    "showdownAliases": [
+      "meganiumite",
+      "Meganiumite"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": [
+      "meganium"
+    ]
+  },
+  {
+    "id": "mental-herb",
+    "displayName": "Mental Herb",
+    "aliases": [
+      "Mental Herb",
+      "mental-herb",
+      "mentalherb"
+    ],
+    "showdownAliases": [
+      "mental-herb",
+      "Mental Herb"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": []
+  },
+  {
+    "id": "meowsticite",
+    "displayName": "Meowsticite",
+    "aliases": [
+      "Meowsticite",
+      "meowsticite"
+    ],
+    "showdownAliases": [
+      "meowsticite",
+      "Meowsticite"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": [
+      "meowstic",
+      "meowsticf"
+    ]
+  },
+  {
+    "id": "metagrossite",
+    "displayName": "Metagrossite",
+    "aliases": [
+      "Metagrossite",
+      "metagrossite"
+    ],
+    "showdownAliases": [
+      "metagrossite",
+      "Metagrossite"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": [
+      "metagross"
+    ]
+  },
+  {
+    "id": "metal-coat",
+    "displayName": "Metal Coat",
+    "aliases": [
+      "Metal Coat",
+      "metal-coat",
+      "metalcoat"
+    ],
+    "showdownAliases": [
+      "metal-coat",
+      "Metal Coat"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": []
+  },
+  {
+    "id": "metronome",
+    "displayName": "Metronome",
+    "aliases": [
+      "Metronome",
+      "metronome"
+    ],
+    "showdownAliases": [
+      "metronome",
+      "Metronome"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": []
+  },
+  {
+    "id": "miracle-seed",
+    "displayName": "Miracle Seed",
+    "aliases": [
+      "Miracle Seed",
+      "miracle-seed",
+      "miracleseed"
+    ],
+    "showdownAliases": [
+      "miracle-seed",
+      "Miracle Seed"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": []
+  },
+  {
+    "id": "muscle-band",
+    "displayName": "Muscle Band",
+    "aliases": [
+      "Muscle Band",
+      "muscle-band",
+      "muscleband"
+    ],
+    "showdownAliases": [
+      "muscle-band",
+      "Muscle Band"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": []
+  },
+  {
+    "id": "mystic-water",
+    "displayName": "Mystic Water",
+    "aliases": [
+      "Mystic Water",
+      "mystic-water",
+      "mysticwater"
+    ],
+    "showdownAliases": [
+      "mystic-water",
+      "Mystic Water"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": []
+  },
+  {
+    "id": "never-melt-ice",
+    "displayName": "Never-Melt Ice",
+    "aliases": [
+      "Never Melt Ice",
+      "Never-Melt Ice",
+      "never-melt-ice",
+      "nevermeltice"
+    ],
+    "showdownAliases": [
+      "never-melt-ice",
+      "Never-Melt Ice"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": []
+  },
+  {
+    "id": "occa-berry",
+    "displayName": "Occa Berry",
+    "aliases": [
+      "Occa Berry",
+      "occa-berry",
+      "occaberry"
+    ],
+    "showdownAliases": [
+      "occa-berry",
+      "Occa Berry"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": []
+  },
+  {
+    "id": "oran-berry",
+    "displayName": "Oran Berry",
+    "aliases": [
+      "Oran Berry",
+      "oran-berry",
+      "oranberry"
+    ],
+    "showdownAliases": [
+      "oran-berry",
+      "Oran Berry"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": []
+  },
+  {
+    "id": "passho-berry",
+    "displayName": "Passho Berry",
+    "aliases": [
+      "Passho Berry",
+      "passho-berry",
+      "passhoberry"
+    ],
+    "showdownAliases": [
+      "passho-berry",
+      "Passho Berry"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": []
+  },
+  {
+    "id": "payapa-berry",
+    "displayName": "Payapa Berry",
+    "aliases": [
+      "Payapa Berry",
+      "payapa-berry",
+      "payapaberry"
+    ],
+    "showdownAliases": [
+      "payapa-berry",
+      "Payapa Berry"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": []
+  },
+  {
+    "id": "pecha-berry",
+    "displayName": "Pecha Berry",
+    "aliases": [
+      "Pecha Berry",
+      "pecha-berry",
+      "pechaberry"
+    ],
+    "showdownAliases": [
+      "pecha-berry",
+      "Pecha Berry"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": []
+  },
+  {
+    "id": "persim-berry",
+    "displayName": "Persim Berry",
+    "aliases": [
+      "Persim Berry",
+      "persim-berry",
+      "persimberry"
+    ],
+    "showdownAliases": [
+      "persim-berry",
+      "Persim Berry"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": []
+  },
+  {
+    "id": "pidgeotite",
+    "displayName": "Pidgeotite",
+    "aliases": [
+      "Pidgeotite",
+      "pidgeotite"
+    ],
+    "showdownAliases": [
+      "pidgeotite",
+      "Pidgeotite"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": [
+      "pidgeot"
+    ]
+  },
+  {
+    "id": "pinsirite",
+    "displayName": "Pinsirite",
+    "aliases": [
+      "Pinsirite",
+      "pinsirite"
+    ],
+    "showdownAliases": [
+      "pinsirite",
+      "Pinsirite"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": [
+      "pinsir"
+    ]
+  },
+  {
+    "id": "poison-barb",
+    "displayName": "Poison Barb",
+    "aliases": [
+      "Poison Barb",
+      "poison-barb",
+      "poisonbarb"
+    ],
+    "showdownAliases": [
+      "poison-barb",
+      "Poison Barb"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": []
+  },
+  {
+    "id": "pyroarite",
+    "displayName": "Pyroarite",
+    "aliases": [
+      "Pyroarite",
+      "pyroarite"
+    ],
+    "showdownAliases": [
+      "pyroarite",
+      "Pyroarite"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": [
+      "pyroar"
+    ]
+  },
+  {
+    "id": "quick-claw",
+    "displayName": "Quick Claw",
+    "aliases": [
+      "Quick Claw",
+      "quick-claw",
+      "quickclaw"
+    ],
+    "showdownAliases": [
+      "quick-claw",
+      "Quick Claw"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": []
+  },
+  {
+    "id": "raichunite-x",
+    "displayName": "Raichunite X",
+    "aliases": [
+      "Raichunite X",
+      "raichunite-x",
+      "raichunitex"
+    ],
+    "showdownAliases": [
+      "raichunite-x",
+      "Raichunite X"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": [
+      "raichu"
+    ]
+  },
+  {
+    "id": "raichunite-y",
+    "displayName": "Raichunite Y",
+    "aliases": [
+      "Raichunite Y",
+      "raichunite-y",
+      "raichunitey"
+    ],
+    "showdownAliases": [
+      "raichunite-y",
+      "Raichunite Y"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": [
+      "raichu"
+    ]
+  },
+  {
+    "id": "rawst-berry",
+    "displayName": "Rawst Berry",
+    "aliases": [
+      "Rawst Berry",
+      "rawst-berry",
+      "rawstberry"
+    ],
+    "showdownAliases": [
+      "rawst-berry",
+      "Rawst Berry"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": []
+  },
+  {
+    "id": "rindo-berry",
+    "displayName": "Rindo Berry",
+    "aliases": [
+      "Rindo Berry",
+      "rindo-berry",
+      "rindoberry"
+    ],
+    "showdownAliases": [
+      "rindo-berry",
+      "Rindo Berry"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": []
+  },
+  {
+    "id": "roseli-berry",
+    "displayName": "Roseli Berry",
+    "aliases": [
+      "Roseli Berry",
+      "roseli-berry",
+      "roseliberry"
+    ],
+    "showdownAliases": [
+      "roseli-berry",
+      "Roseli Berry"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": []
+  },
+  {
+    "id": "sablenite",
+    "displayName": "Sablenite",
+    "aliases": [
+      "Sablenite",
+      "sablenite"
+    ],
+    "showdownAliases": [
+      "sablenite",
+      "Sablenite"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": [
+      "sableye"
+    ]
+  },
+  {
+    "id": "sceptilite",
+    "displayName": "Sceptilite",
+    "aliases": [
+      "Sceptilite",
+      "sceptilite"
+    ],
+    "showdownAliases": [
+      "sceptilite",
+      "Sceptilite"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": [
+      "sceptile"
+    ]
+  },
+  {
+    "id": "scizorite",
+    "displayName": "Scizorite",
+    "aliases": [
+      "Scizorite",
+      "scizorite"
+    ],
+    "showdownAliases": [
+      "scizorite",
+      "Scizorite"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": [
+      "scizor"
+    ]
+  },
+  {
+    "id": "scolipite",
+    "displayName": "Scolipite",
+    "aliases": [
+      "Scolipite",
+      "scolipite"
+    ],
+    "showdownAliases": [
+      "scolipite",
+      "Scolipite"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": [
+      "scolipede"
+    ]
+  },
+  {
+    "id": "scope-lens",
+    "displayName": "Scope Lens",
+    "aliases": [
+      "Scope Lens",
+      "scope-lens",
+      "scopelens"
+    ],
+    "showdownAliases": [
+      "scope-lens",
+      "Scope Lens"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": []
+  },
+  {
+    "id": "scovillainite",
+    "displayName": "Scovillainite",
+    "aliases": [
+      "Scovillainite",
+      "scovillainite"
+    ],
+    "showdownAliases": [
+      "scovillainite",
+      "Scovillainite"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": [
+      "scovillain"
+    ]
+  },
+  {
+    "id": "scraftinite",
+    "displayName": "Scraftinite",
+    "aliases": [
+      "Scraftinite",
+      "scraftinite"
+    ],
+    "showdownAliases": [
+      "scraftinite",
+      "Scraftinite"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": [
+      "scrafty"
+    ]
+  },
+  {
+    "id": "sharp-beak",
+    "displayName": "Sharp Beak",
+    "aliases": [
+      "Sharp Beak",
+      "sharp-beak",
+      "sharpbeak"
+    ],
+    "showdownAliases": [
+      "sharp-beak",
+      "Sharp Beak"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": []
+  },
+  {
+    "id": "sharpedonite",
+    "displayName": "Sharpedonite",
+    "aliases": [
+      "Sharpedonite",
+      "sharpedonite"
+    ],
+    "showdownAliases": [
+      "sharpedonite",
+      "Sharpedonite"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": [
+      "sharpedo"
+    ]
+  },
+  {
+    "id": "shed-shell",
+    "displayName": "Shed Shell",
+    "aliases": [
+      "Shed Shell",
+      "shed-shell",
+      "shedshell"
+    ],
+    "showdownAliases": [
+      "shed-shell",
+      "Shed Shell"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": []
+  },
+  {
+    "id": "shell-bell",
+    "displayName": "Shell Bell",
+    "aliases": [
+      "Shell Bell",
+      "shell-bell",
+      "shellbell"
+    ],
+    "showdownAliases": [
+      "shell-bell",
+      "Shell Bell"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": []
+  },
+  {
+    "id": "shuca-berry",
+    "displayName": "Shuca Berry",
+    "aliases": [
+      "Shuca Berry",
+      "shuca-berry",
+      "shucaberry"
+    ],
+    "showdownAliases": [
+      "shuca-berry",
+      "Shuca Berry"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": []
+  },
+  {
+    "id": "silk-scarf",
+    "displayName": "Silk Scarf",
+    "aliases": [
+      "Silk Scarf",
+      "silk-scarf",
+      "silkscarf"
+    ],
+    "showdownAliases": [
+      "silk-scarf",
+      "Silk Scarf"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": []
+  },
+  {
+    "id": "silver-powder",
+    "displayName": "Silver Powder",
+    "aliases": [
+      "Silver Powder",
+      "silver-powder",
+      "silverpowder"
+    ],
+    "showdownAliases": [
+      "silver-powder",
+      "Silver Powder"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": []
+  },
+  {
+    "id": "sitrus-berry",
+    "displayName": "Sitrus Berry",
+    "aliases": [
+      "Sitrus Berry",
+      "sitrus-berry",
+      "sitrusberry"
+    ],
+    "showdownAliases": [
+      "sitrus-berry",
+      "Sitrus Berry"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": []
+  },
+  {
+    "id": "skarmorite",
+    "displayName": "Skarmorite",
+    "aliases": [
+      "Skarmorite",
+      "skarmorite"
+    ],
+    "showdownAliases": [
+      "skarmorite",
+      "Skarmorite"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": [
+      "skarmory"
+    ]
+  },
+  {
+    "id": "slowbronite",
+    "displayName": "Slowbronite",
+    "aliases": [
+      "Slowbronite",
+      "slowbronite"
+    ],
+    "showdownAliases": [
+      "slowbronite",
+      "Slowbronite"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": [
+      "slowbro"
+    ]
+  },
+  {
+    "id": "smooth-rock",
+    "displayName": "Smooth Rock",
+    "aliases": [
+      "Smooth Rock",
+      "smooth-rock",
+      "smoothrock"
+    ],
+    "showdownAliases": [
+      "smooth-rock",
+      "Smooth Rock"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": []
+  },
+  {
+    "id": "soft-sand",
+    "displayName": "Soft Sand",
+    "aliases": [
+      "Soft Sand",
+      "soft-sand",
+      "softsand"
+    ],
+    "showdownAliases": [
+      "soft-sand",
+      "Soft Sand"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": []
+  },
+  {
+    "id": "spell-tag",
+    "displayName": "Spell Tag",
+    "aliases": [
+      "Spell Tag",
+      "spell-tag",
+      "spelltag"
+    ],
+    "showdownAliases": [
+      "spell-tag",
+      "Spell Tag"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": []
+  },
+  {
+    "id": "staraptite",
+    "displayName": "Staraptite",
+    "aliases": [
+      "Staraptite",
+      "staraptite"
+    ],
+    "showdownAliases": [
+      "staraptite",
+      "Staraptite"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": [
+      "staraptor"
+    ]
+  },
+  {
+    "id": "starminite",
+    "displayName": "Starminite",
+    "aliases": [
+      "Starminite",
+      "starminite"
+    ],
+    "showdownAliases": [
+      "starminite",
+      "Starminite"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": [
+      "starmie"
+    ]
+  },
+  {
+    "id": "steelixite",
+    "displayName": "Steelixite",
+    "aliases": [
+      "Steelixite",
+      "steelixite"
+    ],
+    "showdownAliases": [
+      "steelixite",
+      "Steelixite"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": [
+      "steelix"
+    ]
+  },
+  {
+    "id": "swampertite",
+    "displayName": "Swampertite",
+    "aliases": [
+      "Swampertite",
+      "swampertite"
+    ],
+    "showdownAliases": [
+      "swampertite",
+      "Swampertite"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": [
+      "swampert"
+    ]
+  },
+  {
+    "id": "tanga-berry",
+    "displayName": "Tanga Berry",
+    "aliases": [
+      "Tanga Berry",
+      "tanga-berry",
+      "tangaberry"
+    ],
+    "showdownAliases": [
+      "tanga-berry",
+      "Tanga Berry"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": []
+  },
+  {
+    "id": "twisted-spoon",
+    "displayName": "Twisted Spoon",
+    "aliases": [
+      "Twisted Spoon",
+      "twisted-spoon",
+      "twistedspoon"
+    ],
+    "showdownAliases": [
+      "twisted-spoon",
+      "Twisted Spoon"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": []
+  },
+  {
+    "id": "tyranitarite",
+    "displayName": "Tyranitarite",
+    "aliases": [
+      "Tyranitarite",
+      "tyranitarite"
+    ],
+    "showdownAliases": [
+      "tyranitarite",
+      "Tyranitarite"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": [
+      "tyranitar"
+    ]
+  },
+  {
+    "id": "venusaurite",
+    "displayName": "Venusaurite",
+    "aliases": [
+      "Venusaurite",
+      "venusaurite"
+    ],
+    "showdownAliases": [
+      "venusaurite",
+      "Venusaurite"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": [
+      "venusaur"
+    ]
+  },
+  {
+    "id": "victreebelite",
+    "displayName": "Victreebelite",
+    "aliases": [
+      "Victreebelite",
+      "victreebelite"
+    ],
+    "showdownAliases": [
+      "victreebelite",
+      "Victreebelite"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": [
+      "victreebel"
+    ]
+  },
+  {
+    "id": "wacan-berry",
+    "displayName": "Wacan Berry",
+    "aliases": [
+      "Wacan Berry",
+      "wacan-berry",
+      "wacanberry"
+    ],
+    "showdownAliases": [
+      "wacan-berry",
+      "Wacan Berry"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": []
+  },
+  {
+    "id": "white-herb",
+    "displayName": "White Herb",
+    "aliases": [
+      "White Herb",
+      "white-herb",
+      "whiteherb"
+    ],
+    "showdownAliases": [
+      "white-herb",
+      "White Herb"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": []
+  },
+  {
+    "id": "wide-lens",
+    "displayName": "Wide Lens",
+    "aliases": [
+      "Wide Lens",
+      "wide-lens",
+      "widelens"
+    ],
+    "showdownAliases": [
+      "wide-lens",
+      "Wide Lens"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": []
+  },
+  {
+    "id": "wise-glasses",
+    "displayName": "Wise Glasses",
+    "aliases": [
+      "Wise Glasses",
+      "wise-glasses",
+      "wiseglasses"
+    ],
+    "showdownAliases": [
+      "wise-glasses",
+      "Wise Glasses"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": []
+  },
+  {
+    "id": "yache-berry",
+    "displayName": "Yache Berry",
+    "aliases": [
+      "Yache Berry",
+      "yache-berry",
+      "yacheberry"
+    ],
+    "showdownAliases": [
+      "yache-berry",
+      "Yache Berry"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": []
+  },
+  {
+    "id": "zoom-lens",
+    "displayName": "Zoom Lens",
+    "aliases": [
+      "Zoom Lens",
+      "zoom-lens",
+      "zoomlens"
+    ],
+    "showdownAliases": [
+      "zoom-lens",
+      "Zoom Lens"
+    ],
+    "legalIn": [
+      "M-B"
+    ],
+    "itemClauseEligible": true,
+    "enablesMegaFor": []
+  }
+]

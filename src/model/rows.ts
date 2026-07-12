@@ -3,6 +3,12 @@ import { resolveName } from '../data/registry'
 
 /** One spreadsheet/table row = one Pokémon, with slug ids expanded to names. */
 export interface MonRow {
+  /** Identity columns (SPEC §5.1) — blank for PII-free PDF rows and team-only links. */
+  playerName: string
+  playerId: string
+  division: string
+  /** Tournament the team is filed under; blank = unassigned (SPEC §9.4). */
+  tournament: string
   sourceFile: string
   slot: number
   species: string
@@ -23,7 +29,7 @@ export interface MonRow {
   unknownSlugs: string[]
 }
 
-export function toRows(team: DecodedTeam): MonRow[] {
+export function toRows(team: DecodedTeam, tournament = ''): MonRow[] {
   return team.mons.map((mon) => {
     const unknownSlugs: string[] = []
     const resolve = (category: Parameters<typeof resolveName>[0], slug: string) => {
@@ -32,6 +38,10 @@ export function toRows(team: DecodedTeam): MonRow[] {
       return r.name
     }
     return {
+      playerName: team.player?.name ?? '',
+      playerId: team.player?.playerId ?? '',
+      division: team.player?.division ?? '',
+      tournament,
       sourceFile: team.sourceFile,
       slot: mon.slot,
       species: resolve('species', mon.speciesId),
