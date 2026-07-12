@@ -287,3 +287,85 @@ upload endpoint.
 - Downloadable CSV and XLSX of the aggregated data.
 - A dashboard with at least species/item/ability/move usage rankings.
 - Runs fully client-side and can deploy to static hosting.
+
+---
+
+## 9. Phase 2 — Viewer, tournaments, persistence
+
+Phase 1 (§§1–8) is a stateless batch tool: ingest, look, export, close the tab.
+Phase 2 turns the cruncher into the **suite's viewer and TO workbench**: `#t=`
+links open here as read-only sheets, and teams accumulate under TO-created
+tournaments with cross-event analytics. Decisions already made:
+
+- The cruncher **evolves** into this — no third repo. Same codebase, decoders,
+  data files, and dashboards.
+- Storage is **on-device (IndexedDB)** — no backend, matching the suite's
+  privacy stance. Export/import files cover backup and machine moves.
+- **Both domains accept `#t=` links.** The builder keeps its current share-link
+  base URL for now; the cruncher accepts the identical payload at its own URL.
+  The builder may switch its Email-to-TO default to the cruncher later —
+  nothing in the payload changes.
+
+### 9.1 Read-only viewer route
+
+Opening `<cruncher-url>/#t=<payload>` decodes via the §2.3 pipeline and renders
+a **non-editable** team sheet: the player-info block (when present) and the six
+Pokémon with expanded names, item, ability, moves, Stat Alignment, and stats.
+No editing controls of any kind. Actions on the page:
+
+- **Add to tournament…** — picker over existing tournaments plus create-new
+  inline. Adding stores the decoded team (and player info) in IndexedDB.
+- **Copy link** — the URL itself remains the canonical shareable form.
+
+A malformed payload shows a friendly error (§7 rules apply). Rendering is
+entirely on-device; the payload never leaves the browser.
+
+### 9.2 Tournaments
+
+The TO can create, rename, and delete tournaments (name, date, optional
+notes). Every ingestion path — viewer "add to tournament", the bulk link paste
+box, and the PDF batch upload — takes a target tournament (or an **Unassigned**
+bucket, reassignable later). Within a tournament:
+
+- **Dedup** on identical decoded team payload (§7); surface what was dropped.
+- **Manual delete** of any team — this is also the TO's override for
+  near-duplicates the payload hash can't catch.
+- The same team may legitimately appear in *different* tournaments (a player
+  reuses a team across events) — dedup is per-tournament, never global.
+
+### 9.3 Persistence (IndexedDB)
+
+Two object stores:
+
+- `tournaments`: `id`, `name`, `date`, `notes`, `createdAt`.
+- `teams`: `id`, `tournamentId` (or null = unassigned), `source` (file name /
+  link), decoded mons, `player?`, `payloadHash` (dedup key), `addedAt`.
+
+Rules:
+
+- Request `navigator.storage.persist()` so the browser doesn't evict the DB.
+- **Export/import**: a tournament (or the whole DB) serializes to a JSON file
+  for backup and moving between machines. The file contains PII — it is the
+  TO's to safeguard, same as the emails they received.
+- Warn prominently that clearing browser data deletes all events; nudge
+  toward periodic export.
+- Still no backend, no accounts, no telemetry. Nothing leaves the device.
+
+### 9.4 Cross-event dashboard
+
+The §5.2 dashboard gains an **event filter**: all tournaments, one, or any
+subset (multi-select). All aggregations and the drill-downs recompute over the
+selected set. Spreadsheet export honors the active filter and adds a
+`tournament` column (blank for unassigned).
+
+### 9.5 Phase 2 acceptance criteria
+
+- A `#t=` link opened at the cruncher's URL renders a read-only sheet and can
+  be added to a tournament in two clicks.
+- Tournaments persist across browser sessions; teams can be reassigned,
+  deleted, exported, and re-imported losslessly (player info included).
+- Dashboard and exports filter by any subset of tournaments.
+- Identical teams dedupe within a tournament; the TO can manually delete any
+  team.
+- Everything remains client-side and static-hostable; no data leaves the
+  device except files the TO explicitly exports.

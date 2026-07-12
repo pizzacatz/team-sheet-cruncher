@@ -26,8 +26,10 @@ The core app is built (PDF ingestion path only so far):
 
 Not yet implemented: **`#t=` team-share-link ingestion** (paste box, link decode,
 player-info columns), **deduplication** of identical teams, decoding **multiple
-staff pages in one PDF** (currently the first payload wins), and the **QR carrier
-(`TSBI1`)** fallback for scanned sheets (a stretch goal per the spec).
+staff pages in one PDF** (currently the first payload wins), the **QR carrier
+(`TSBI1`)** fallback for scanned sheets (a stretch goal per the spec), and all of
+**Phase 2** (SPEC §9): the read-only `#t=` viewer route, TO-created tournaments
+with IndexedDB persistence, and the cross-event dashboard filter.
 
 **Data snapshot:** `src/data/regulation-mb/` currently holds empty placeholders;
 copy the real JSON snapshots from the builder repo (see the README in that
