@@ -328,6 +328,14 @@ box, and the PDF batch upload — takes a target tournament (or an **Unassigned*
 bucket, reassignable later). Within a tournament:
 
 - **Dedup** on identical decoded team payload (§7); surface what was dropped.
+- **Manual edit** of any *stored* team — the viewer page itself is strictly
+  read-only (a `#t=` link is the player's canonical submission and is never
+  altered), but corrections happen after storage: the TO can edit any field of
+  a stored team (player info and team data alike) to fix typos, wrong
+  divisions, mis-scanned sheets, etc. Keep the original decoded payload
+  alongside the edits (`payloadHash` stays keyed to the original, so dedup
+  still recognizes a re-submitted link), and mark the record as edited
+  (`editedAt`) so hand-corrected rows are distinguishable.
 - **Manual delete** of any team — this is also the TO's override for
   near-duplicates the payload hash can't catch.
 - The same team may legitimately appear in *different* tournaments (a player
@@ -339,7 +347,9 @@ Two object stores:
 
 - `tournaments`: `id`, `name`, `date`, `notes`, `createdAt`.
 - `teams`: `id`, `tournamentId` (or null = unassigned), `source` (file name /
-  link), decoded mons, `player?`, `payloadHash` (dedup key), `addedAt`.
+  link), decoded mons, `player?`, `payloadHash` (dedup key, always from the
+  *original* payload), `addedAt`, `editedAt?` (set when the TO hand-corrects
+  the record, §9.2).
 
 Rules:
 
@@ -365,7 +375,8 @@ selected set. Spreadsheet export honors the active filter and adds a
 - Tournaments persist across browser sessions; teams can be reassigned,
   deleted, exported, and re-imported losslessly (player info included).
 - Dashboard and exports filter by any subset of tournaments.
-- Identical teams dedupe within a tournament; the TO can manually delete any
-  team.
+- Identical teams dedupe within a tournament; the TO can manually edit any
+  stored team's fields (marked as edited) and delete any team. The viewer
+  itself exposes no editing of the link payload.
 - Everything remains client-side and static-hostable; no data leaves the
   device except files the TO explicitly exports.
