@@ -1,6 +1,6 @@
 import type { ParseOutcome } from '../decode/types'
 
-const LABELS = { ok: 'OK', skipped: 'Skipped', error: 'Error' } as const
+const LABELS = { ok: 'OK', duplicate: 'Duplicate', skipped: 'Skipped', error: 'Error' } as const
 
 export function FileStatusList({ outcomes }: { outcomes: ParseOutcome[] }) {
   return (

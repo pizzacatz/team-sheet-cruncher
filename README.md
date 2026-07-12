@@ -10,7 +10,7 @@ readable names, and produces a spreadsheet and a usage dashboard, all client-sid
 
 ## Status
 
-The core app is built (PDF ingestion path only so far):
+Phase 1 and Phase 2 are built:
 
 - **Bulk upload** (drag-and-drop / multi-select) with parse progress; every page
   of every PDF is scanned, so combined "Both" PDFs work.
@@ -24,12 +24,23 @@ The core app is built (PDF ingestion path only so far):
 - PDFs with no payload (Open sheets, foreign files) are reported as skipped
   without aborting the batch.
 
-Not yet implemented: **`#t=` team-share-link ingestion** (paste box, link decode,
-player-info columns), **deduplication** of identical teams, decoding **multiple
-staff pages in one PDF** (currently the first payload wins), the **QR carrier
-(`TSBI1`)** fallback for scanned sheets (a stretch goal per the spec), and all of
-**Phase 2** (SPEC §9): the read-only `#t=` viewer route, TO-created tournaments
-with IndexedDB persistence, and the cross-event dashboard filter.
+- **`#t=` team-share-link ingestion** — paste links or whole email bodies;
+  player info (name/ID/division/DOB) flows into the table and exports.
+- **Read-only viewer route** — opening `<cruncher-url>/#t=<payload>` renders the
+  shared team non-editably, with add-to-tournament and copy-link actions.
+- **Tournaments** — create/rename/delete events; every ingestion path files
+  teams under a tournament (or Unassigned); teams persist in IndexedDB across
+  sessions, with JSON export/import for backup and machine moves.
+- **Dedup & corrections** — identical teams dedupe per tournament (surfaced in
+  the session log); stored teams can be hand-edited (marked `edited`, original
+  payload preserved so re-submissions still dedupe) or deleted.
+- **Cross-event dashboard** — filter chips select any subset of tournaments;
+  aggregations, drill-downs, and CSV/XLSX exports follow the filter.
+- **Merged PDFs** — every page is scanned and each staff page yields its own
+  team (`file.pdf#pN`).
+
+Not yet implemented: the **QR carrier (`TSBI1`)** fallback for scanned sheets —
+a stretch goal per the spec.
 
 **Data snapshot:** `src/data/regulation-mb/` currently holds empty placeholders;
 copy the real JSON snapshots from the builder repo (see the README in that

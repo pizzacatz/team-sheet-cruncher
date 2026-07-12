@@ -55,5 +55,7 @@ export interface DecodedTeam {
 
 export type ParseOutcome =
   | { status: 'ok'; team: DecodedTeam }
+  /** Identical payload already stored in the target tournament (SPEC §9.2). */
+  | { status: 'duplicate'; sourceFile: string; reason: string }
   | { status: 'skipped'; sourceFile: string; reason: string }
   | { status: 'error'; sourceFile: string; reason: string }

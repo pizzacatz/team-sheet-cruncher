@@ -372,3 +372,366 @@ button.ghost:hover {
   font-size: 12.5px;
   margin-top: 10px;
 }
+
+/* Ingest row: dropzone + paste box side by side, target picker on the right */
+.ingest-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  align-items: stretch;
+}
+.ingest-inputs {
+  flex: 1 1 480px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 14px;
+}
+.paste-box {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 12px;
+  border: 2px dashed var(--baseline);
+  border-radius: 10px;
+  background: var(--surface);
+}
+.paste-box textarea {
+  flex: 1;
+  resize: vertical;
+  min-height: 64px;
+  font: inherit;
+  font-size: 13px;
+  color: var(--ink);
+  background: var(--page);
+  border: 1px solid var(--border);
+  border-radius: 7px;
+  padding: 8px 10px;
+}
+.paste-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+}
+.paste-count {
+  color: var(--muted);
+  font-size: 12.5px;
+}
+.target-picker {
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  justify-content: center;
+  padding: 12px 16px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--surface);
+  color: var(--ink-2);
+  font-size: 13px;
+}
+select,
+input[type='text'],
+input:not([type]) {
+  font: inherit;
+  font-size: 13.5px;
+  color: var(--ink);
+  background: var(--page);
+  border: 1px solid var(--border);
+  border-radius: 7px;
+  padding: 6px 10px;
+}
+
+/* Tournament filter chips */
+.filter-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 16px;
+}
+.chip {
+  border-radius: 999px;
+  padding: 4px 12px;
+  font-size: 13px;
+  color: var(--ink-2);
+}
+.chip.active {
+  border-color: var(--series-1);
+  color: var(--series-1);
+  font-weight: 600;
+}
+
+.notice {
+  margin: 14px 0 0;
+  padding: 10px 14px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--surface);
+  color: var(--ink-2);
+  font-size: 13.5px;
+}
+
+/* Teams table: team header rows and actions */
+.team-row td {
+  background: var(--grid);
+  font-size: 13px;
+}
+.team-title {
+  font-weight: 600;
+}
+.team-source,
+.team-meta {
+  color: var(--muted);
+  font-weight: 400;
+}
+.team-meta {
+  margin-left: 12px;
+}
+.team-actions {
+  text-align: right;
+}
+.badge.duplicate {
+  color: var(--warning-ink);
+}
+.badge.edited {
+  margin-left: 10px;
+  color: var(--warning-ink);
+  border: 1px solid var(--warning-ink);
+  border-radius: 5px;
+  padding: 0 5px;
+}
+button.danger {
+  color: var(--critical);
+}
+
+/* Tournament manager */
+.tournament-manager {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.tournament-create {
+  display: flex;
+  gap: 8px;
+}
+.tournament-create input {
+  flex: 1 1 260px;
+  max-width: 340px;
+}
+.tournament-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--surface);
+}
+.tournament-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 9px 14px;
+  border-bottom: 1px solid var(--grid);
+}
+.tournament-item:last-child {
+  border-bottom: none;
+}
+.tournament-item.unassigned {
+  color: var(--muted);
+}
+.tournament-name {
+  font-weight: 600;
+  flex: 1;
+}
+.tournament-item input {
+  flex: 1;
+}
+.tournament-count {
+  color: var(--muted);
+  font-size: 13px;
+}
+.backup-row {
+  display: flex;
+  gap: 8px;
+}
+
+/* Read-only viewer */
+.player-block {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 10px 18px;
+  margin: 0 0 18px;
+  padding: 14px 16px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--surface);
+}
+.player-field dt {
+  color: var(--muted);
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+.player-field dd {
+  margin: 1px 0 0;
+  font-weight: 600;
+}
+.mon-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 14px;
+}
+.mon-card {
+  padding: 14px 16px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--surface);
+}
+.mon-card header {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+.mon-card h3 {
+  margin: 0;
+  font-size: 16px;
+}
+.mon-form {
+  color: var(--muted);
+  font-size: 12.5px;
+}
+.mon-fields {
+  margin: 0 0 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  font-size: 13.5px;
+}
+.mon-fields div {
+  display: flex;
+  gap: 6px;
+}
+.mon-fields dt {
+  color: var(--muted);
+  min-width: 72px;
+}
+.mon-fields dd {
+  margin: 0;
+}
+.mon-moves {
+  margin: 0 0 10px;
+  padding-left: 18px;
+  font-size: 13.5px;
+}
+.mon-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 12px;
+  font-size: 12.5px;
+  font-variant-numeric: tabular-nums;
+}
+.mon-stats em {
+  font-style: normal;
+  color: var(--muted);
+}
+.viewer-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+.viewer-actions label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--ink-2);
+  font-size: 13.5px;
+}
+.viewer-result {
+  margin-top: 10px;
+  color: var(--good);
+  font-size: 13.5px;
+}
+.viewer-error {
+  padding: 24px 0;
+  color: var(--ink-2);
+}
+.warnings {
+  color: var(--warning-ink);
+  font-size: 13.5px;
+}
+
+/* Edit modal */
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  z-index: 10;
+}
+.modal {
+  width: min(860px, 100%);
+  max-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  background: var(--page);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+}
+.modal-header {
+  padding: 16px 20px 0;
+}
+.modal-header h2 {
+  margin: 0;
+  font-size: 19px;
+}
+.modal-header .hint {
+  margin: 4px 0 0;
+}
+.modal-body {
+  overflow-y: auto;
+  padding: 8px 20px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.modal-body h3 {
+  margin: 14px 0 8px;
+  font-size: 14px;
+  color: var(--ink-2);
+}
+.edit-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+  gap: 8px 12px;
+}
+.edit-field {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  font-size: 12.5px;
+  color: var(--muted);
+}
+.edit-field input,
+.edit-field select {
+  font-size: 13.5px;
+}
+.edit-field small {
+  min-height: 15px;
+  color: var(--muted);
+}
+.edit-field.stat {
+  max-width: 90px;
+}
+.modal-footer {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+  padding: 12px 20px 16px;
+  border-top: 1px solid var(--grid);
+}

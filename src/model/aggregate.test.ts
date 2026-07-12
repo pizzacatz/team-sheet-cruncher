@@ -16,7 +16,7 @@ function mon(slot: number, species: string, item: string, moves: string[]): Deco
 }
 
 function team(sourceFile: string, mons: DecodedMon[]): DecodedTeam {
-  return { sourceFile, mons, warnings: [] }
+  return { sourceFile, mons, payload: sourceFile, warnings: [] }
 }
 
 describe('aggregate', () => {
