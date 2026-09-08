@@ -18,16 +18,44 @@ interface DataRecord {
 
 export type Category = 'species' | 'move' | 'ability' | 'item' | 'statAlignment'
 
+// Manual per-species display overrides, keyed by slug id. Mirrors the same map
+// in Team Sheet Builder (src/domain/regulationData.ts): default forms are
+// relabelled to disambiguate them from their regional/gender/other variants,
+// which are separate records. Keep the two in sync when either changes.
+const speciesDisplayOverrides: Record<string, string> = {
+  // Regional base forms, labelled by the base form's origin region.
+  raichu: 'Raichu-Kanto',
+  ninetales: 'Ninetales-Kanto',
+  arcanine: 'Arcanine-Kanto',
+  slowbro: 'Slowbro-Kanto',
+  tauros: 'Tauros-Kanto',
+  typhlosion: 'Typhlosion-Johto',
+  slowking: 'Slowking-Johto',
+  samurott: 'Samurott-Unova',
+  zoroark: 'Zoroark-Unova',
+  stunfisk: 'Stunfisk-Unova',
+  goodra: 'Goodra-Kalos',
+  avalugg: 'Avalugg-Kalos',
+  decidueye: 'Decidueye-Alola',
+  // Gender base forms (paired with an -F variant).
+  meowstic: 'Meowstic-M',
+  basculegion: 'Basculegion-M',
+  // Other multi-form base forms.
+  gourgeist: 'Gourgeist-Average',
+  lycanroc: 'Lycanroc-Midday',
+  rotom: 'Rotom',
+}
+
 const maps: Record<Category, Map<string, string>> = {
-  species: toMap(species),
+  species: toMap(species, speciesDisplayOverrides),
   move: toMap(moves),
   ability: toMap(abilities),
   item: toMap(items),
   statAlignment: toMap(statAlignments),
 }
 
-function toMap(records: DataRecord[]): Map<string, string> {
-  return new Map(records.map((r) => [r.id, r.displayName]))
+function toMap(records: DataRecord[], overrides: Record<string, string> = {}): Map<string, string> {
+  return new Map(records.map((r) => [r.id, overrides[r.id] ?? r.displayName]))
 }
 
 /** True when a real data snapshot is bundled for this category. */
