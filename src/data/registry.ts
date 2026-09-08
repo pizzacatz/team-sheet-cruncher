@@ -23,27 +23,28 @@ export type Category = 'species' | 'move' | 'ability' | 'item' | 'statAlignment'
 // relabelled to disambiguate them from their regional/gender/other variants,
 // which are separate records. Keep the two in sync when either changes.
 const speciesDisplayOverrides: Record<string, string> = {
-  // Regional base forms, labelled by the base form's origin region.
-  raichu: 'Raichu-Kanto',
-  ninetales: 'Ninetales-Kanto',
-  arcanine: 'Arcanine-Kanto',
-  slowbro: 'Slowbro-Kanto',
-  tauros: 'Tauros-Kanto',
-  typhlosion: 'Typhlosion-Johto',
-  slowking: 'Slowking-Johto',
-  samurott: 'Samurott-Unova',
-  zoroark: 'Zoroark-Unova',
-  stunfisk: 'Stunfisk-Unova',
-  goodra: 'Goodra-Kalos',
-  avalugg: 'Avalugg-Kalos',
-  decidueye: 'Decidueye-Alola',
-  // Gender base forms (paired with an -F variant).
+  // Gender base forms (paired with an -F variant). Keep in sync with the
+  // builder's displayOverrides (src/domain/regulationData.ts).
   meowstic: 'Meowstic-M',
   basculegion: 'Basculegion-M',
-  // Other multi-form base forms.
-  gourgeist: 'Gourgeist-Average',
-  lycanroc: 'Lycanroc-Midday',
-  rotom: 'Rotom',
+
+  // Regional / size / other base-form labels — disabled as unnecessary.
+  // raichu: 'Raichu-Kanto',
+  // ninetales: 'Ninetales-Kanto',
+  // arcanine: 'Arcanine-Kanto',
+  // slowbro: 'Slowbro-Kanto',
+  // tauros: 'Tauros-Kanto',
+  // typhlosion: 'Typhlosion-Johto',
+  // slowking: 'Slowking-Johto',
+  // samurott: 'Samurott-Unova',
+  // zoroark: 'Zoroark-Unova',
+  // stunfisk: 'Stunfisk-Unova',
+  // goodra: 'Goodra-Kalos',
+  // avalugg: 'Avalugg-Kalos',
+  // decidueye: 'Decidueye-Alola',
+  // gourgeist: 'Gourgeist-Average',
+  // lycanroc: 'Lycanroc-Midday',
+  // rotom: 'Rotom',
 }
 
 const maps: Record<Category, Map<string, string>> = {
